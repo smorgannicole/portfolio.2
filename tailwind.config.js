@@ -7,6 +7,8 @@ module.exports = {
         blue: {
           50: "#A2D2FF",
           100: "#BDE0FE",
+          150: "#00AEEF",
+          250: "#3E9BB5",
         },
         yellow: {
           500: "#FFD700",
@@ -24,9 +26,13 @@ module.exports = {
         pink: {
           550: "#FFC8DD",
           650: "#FFAFCC",
+          750: "#E58C8A",
+          850: "#DEBEDC",
         },
         purple: {
           550: "#CDB4DB",
+          650: "#F2B880",
+          955: "#4D79FF",
         },
         magenta: {
           500: "#FF00FF",
@@ -39,6 +45,7 @@ module.exports = {
         22: "75px",
       },
       height: {
+        101: "450px",
         111: "500px",
         222: "700px",
         333: "999px",
@@ -47,6 +54,12 @@ module.exports = {
         111: "500px",
         222: "700px",
         333: "999px",
+      },
+      margin: {
+        97: "33rem",
+      },
+      borderRadius: {
+        "4xl": "4rem",
       },
       animation: {
         blob: "blob 6s infinite",
