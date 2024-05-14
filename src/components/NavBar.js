@@ -21,11 +21,11 @@ const NavBar = () => {
   }, [])
 
   return !archive ? (
-    <nav className="fixed top-10 left-1/2 transform -translate-x-1/2 font-text text-gray-950 w-full flex justify-center z-50">
+    <nav className="fixed top-5 left-1/2 transform -translate-x-1/2 font-text text-gray-950 w-full flex justify-center z-50">
       <span>
         <ul
-          className={`flex gap-14 text-xl transition-all duration-1000 ${
-            isScrolled ? "bg-white bg-opacity-80 py-5 px-4 rounded-full" : null
+          className={`flex gap-14 text-xl transition-all duration-500 ${
+            isScrolled ? "bg-white py-5 px-4 rounded-full" : null
           }`}
         >
           {!isScrolled ? (
@@ -65,8 +65,10 @@ const NavBar = () => {
               to="/"
               className={({ isActive }) => {
                 return isActive
-                  ? "bg-white bg-opacity-50 px-4 py-3 rounded-full transition-all"
-                  : "duration-300 hover:bg-opacity-20 hover:bg-white px-4 py-3 rounded-full"
+                  ? !isScrolled
+                    ? "bg-white px-4 py-3 rounded-full transition-all"
+                    : "bg-blue-100 px-4 py-3 rounded-full transition-all"
+                  : "duration-300 hover:bg-opacity-50 hover:bg-white px-4 py-3 rounded-full"
               }}
             >
               Work
@@ -77,8 +79,10 @@ const NavBar = () => {
               to="/about"
               className={({ isActive }) => {
                 return isActive
-                  ? "bg-white bg-opacity-50 px-4 py-3 rounded-full transition-all"
-                  : "duration-300 hover:bg-white hover:bg-opacity-30 px-4 py-3 rounded-full"
+                  ? !isScrolled
+                    ? "bg-white px-4 py-3 rounded-full transition-all"
+                    : "bg-blue-100 px-4 py-3 rounded-full transition-all"
+                  : "duration-300 hover:bg-opacity-50 hover:bg-white px-4 py-3 rounded-full"
               }}
             >
               About
@@ -86,23 +90,13 @@ const NavBar = () => {
           </li>
           <li>
             <NavLink
-              to="/services"
-              className={({ isActive }) => {
-                return isActive
-                  ? "bg-white bg-opacity-50 px-4 py-3 rounded-full transition-all"
-                  : "duration-300 hover:bg-white hover:bg-opacity-30 px-4 py-3 rounded-full"
-              }}
-            >
-              Services
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
               to="/contact"
               className={({ isActive }) => {
                 return isActive
-                  ? "bg-white bg-opacity-50 px-4 py-3 rounded-full transition-all"
-                  : "duration-300 hover:bg-white hover:bg-opacity-30 px-4 py-3 rounded-full"
+                  ? !isScrolled
+                    ? "bg-white px-4 py-3 rounded-full transition-all"
+                    : "bg-blue-100 px-4 py-3 rounded-full transition-all"
+                  : "duration-300 hover:bg-opacity-50 hover:bg-white px-4 py-3 rounded-full"
               }}
             >
               Contact

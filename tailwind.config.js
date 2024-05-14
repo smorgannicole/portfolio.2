@@ -27,6 +27,7 @@ module.exports = {
           550: "#FFC8DD",
           650: "#FFAFCC",
           750: "#E58C8A",
+          756: "#B7706E",
           850: "#DEBEDC",
         },
         purple: {

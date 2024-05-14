@@ -22,10 +22,8 @@ const Table = ({ projects }) => {
             d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
           />
         </svg>
-        <Link to="/">
-          <button className="text-xl hover:underline underline-offset-2">
-            Morgan Smith
-          </button>
+        <Link to="/" className="text-xl hover:underline underline-offset-2">
+          Morgan Smith
         </Link>
       </div>
       <div className="flex items-start w-full">

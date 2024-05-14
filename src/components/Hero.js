@@ -8,7 +8,7 @@ const Hero = () => {
         <br />a frontend developer.
       </h1>
       <p className="font-text text-2xl mt-4">
-        I find great fulfillmet in creating interesting, yet accessible
+        I find great fulfillment in creating interesting, yet accessible
         interfaces.
       </p>
     </div>
