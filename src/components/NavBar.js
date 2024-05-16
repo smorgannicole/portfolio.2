@@ -9,8 +9,8 @@ const NavBar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.scrollY
-      setIsScrolled(scrollTop > 100)
+      const vertPosition = window.scrollY
+      setIsScrolled(vertPosition > 100)
     }
 
     window.addEventListener("scroll", handleScroll)
@@ -32,7 +32,7 @@ const NavBar = () => {
             <li className="transition-all duration-300 flex align-top">
               <a
                 href="#skip-nav"
-                className="transition-all duration-300 whitespace-no-wrap flex items-center relative"
+                className="transition-all duration-300 whitespace-no-wrap flex items-center relative sr-only focus:not-sr-only focus:bg-white focus:text-black focus:p-2"
                 onMouseEnter={() => setSkipHovered(true)}
                 onMouseLeave={() => setSkipHovered(false)}
                 onFocus={() => setSkipHovered(true)}

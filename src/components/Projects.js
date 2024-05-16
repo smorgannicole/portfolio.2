@@ -118,7 +118,7 @@ const Projects = () => {
           <div className="flex flex-col p-3 text-gray-950">
             <p className="font-text flex justify-end">
               *These sites were created prior to my awareness and understanding
-              of accessibility standards.
+              of accessibility standards
             </p>
             <p className="font-text flex justify-end">
               A less-accessible iteration of my portfolio can be found{" "}
