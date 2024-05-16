@@ -7,10 +7,10 @@ const Hero = () => {
         I'm Morgan,
         <br />a frontend developer.
       </h1>
-      <p className="font-text text-2xl mt-4">
+      <h2 className="font-text text-2xl mt-4">
         I find great fulfillment in creating interesting, yet accessible
         interfaces.
-      </p>
+      </h2>
     </div>
   )
 }
