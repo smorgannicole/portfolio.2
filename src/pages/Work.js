@@ -5,7 +5,7 @@ import Projects from "../components/Projects"
 
 const Work = () => {
   return (
-    <div className="bg-blue-100 min-h-screen bg-opacity-50 overflow-x-clip">
+    <div className="bg-blue-100 min-h-screen bg-opacity-50 overflow-x-clip px-10 pb-5">
       <AmbientBG hero={<Hero />} />
       <Projects />
     </div>

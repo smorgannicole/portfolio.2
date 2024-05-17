@@ -20,6 +20,10 @@ const NavBar = () => {
     }
   }, [])
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0 })
+  }
+
   return !archive ? (
     <nav className="fixed top-5 left-1/2 transform -translate-x-1/2 font-text text-gray-950 w-full flex justify-center z-50">
       <span>
@@ -70,6 +74,7 @@ const NavBar = () => {
                     : "bg-blue-100 px-4 py-3 rounded-full transition-all"
                   : "duration-300 hover:bg-opacity-50 hover:bg-white px-4 py-3 rounded-full"
               }}
+              onClick={scrollToTop}
             >
               Work
             </NavLink>
@@ -84,6 +89,7 @@ const NavBar = () => {
                     : "bg-blue-100 px-4 py-3 rounded-full transition-all"
                   : "duration-300 hover:bg-opacity-50 hover:bg-white px-4 py-3 rounded-full"
               }}
+              onClick={scrollToTop}
             >
               About
             </NavLink>
@@ -98,6 +104,7 @@ const NavBar = () => {
                     : "bg-blue-100 px-4 py-3 rounded-full transition-all"
                   : "duration-300 hover:bg-opacity-50 hover:bg-white px-4 py-3 rounded-full"
               }}
+              onClick={scrollToTop}
             >
               Contact
             </NavLink>

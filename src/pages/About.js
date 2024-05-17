@@ -1,6 +1,7 @@
 import React from "react"
 import NavBar from "../components/NavBar"
 import me from "../assets/itsame.jpg"
+import Footer from "../components/Footer"
 
 const About = () => {
   const palette = [
@@ -16,7 +17,7 @@ const About = () => {
     "#121318",
   ]
   return (
-    <div className="font-text text-xl text-gray-950 min-h-screen bg-opacity-50 bg-blue-100 px-32 py-10">
+    <div className="font-text text-gray-950 min-h-screen bg-opacity-50 bg-blue-100 px-32 py-10">
       <NavBar />
       <h1 className="font-title text-4xl pt-36 items-center flex flex-col justify-center">
         I'm Morgan :) I'm a frontend developer located in Austin, Texas
@@ -38,7 +39,7 @@ const About = () => {
           ))}
         </div>
       </h1>
-      <div className="flex mt-16">
+      <div className="flex mt-16  text-xl">
         <img
           className="h-101 w-auto rounded-xl"
           src={me}
@@ -53,9 +54,9 @@ const About = () => {
             Five years later I attended both Codeup and LEARN Academy's full
             stack web development bootcamps. Despite Codeup's closure midway
             through the course, my time at LEARN Academy reinforced my skills in
-            frontend languages like HTML, CSS, JavaScript, and React. If I went
-            back now, I'd like to think I could make at least a B in CS
-            Fundamentals.
+            frontend languages and frameworks like HTML, CSS, JavaScript, and
+            React. If I went back now, I'd like to think I could make at least a
+            B in CS Fundamentals.
           </p>
           <p>
             Outside of work, I enjoy friendly games of chess (add me on
@@ -72,11 +73,12 @@ const About = () => {
               The LEARN Academy curriculum requires students present a tech talk
               over a technical topic of their choosing
             </h2>
-            <p className="mt-3">
-              I chose Accessibility in Frontend Development because everyone,
-              especially differently-abled people, are beneficiaries to an
-              accessible digital world. I believe we should always strive to
-              make the world easier for others to navigate {"<3"}
+            <p className="mt-3 text-xl">
+              I decided to present over Accessibility in Frontend Development
+              because everyone, especially differently-abled people, are
+              beneficiaries to an accessible digital world. I believe we should
+              always strive to make the world easier for others to navigate{" "}
+              {"<3"}
             </p>
           </article>
         </div>
@@ -91,6 +93,7 @@ const About = () => {
           allowFullScreen
         ></iframe>
       </div>
+      <Footer />
     </div>
   )
 }

@@ -7,7 +7,7 @@ import weatherMap from "../assets/map1.png"
 const FinishedProjects = () => {
   return (
     <>
-      <div className="flex p-10 gap-14">
+      <div className="flex py-10 gap-14">
         <div
           className="w-7/12 h-101 relative overflow-hidden bg-pink-750 bg-opacity-55 rounded-4xl py-7 px-9 hover:bg-opacity-65 hover:cursor-pointer hover:drop-shadow-2xl hover:-translate-y-1 transition-all duration-500 group"
           tabIndex="0"
@@ -45,7 +45,7 @@ const FinishedProjects = () => {
           />
         </div>
       </div>
-      <div className="flex p-10 gap-14">
+      <div className="flex gap-14">
         <div
           className="w-5/12 h-101 relative overflow-hidden bg-blue-150 bg-opacity-40 rounded-4xl py-7 px-9 hover:bg-opacity-50 hover:cursor-pointer hover:drop-shadow-2xl hover:-translate-y-1 transition-all duration-500 group"
           tabIndex="0"
