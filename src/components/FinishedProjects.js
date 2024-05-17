@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import vibeVillas from "../assets/vibe-villas.png"
 import teaHouse from "../assets/tea.png"
 import catTinder from "../assets/cat-tinder.png"
@@ -8,7 +9,8 @@ const FinishedProjects = () => {
   return (
     <>
       <div className="flex py-10 gap-14">
-        <div
+        <Link
+          to="/show1"
           className="w-7/12 h-101 relative overflow-hidden bg-pink-750 bg-opacity-55 rounded-4xl py-7 px-9 hover:bg-opacity-65 hover:cursor-pointer hover:drop-shadow-2xl hover:-translate-y-1 transition-all duration-500 group"
           tabIndex="0"
         >
@@ -27,8 +29,9 @@ const FinishedProjects = () => {
               alt="vibe villas landing page"
             />
           </div>
-        </div>
-        <div
+        </Link>
+        <Link
+          to="/show2"
           className="w-5/12 h-101 relative overflow-hidden bg-purple-650 bg-opacity-55 rounded-4xl py-7 px-9 hover:bg-opacity-65 hover:cursor-pointer hover:drop-shadow-2xl hover:-translate-y-1 transition-all duration-500 group"
           tabIndex="0"
         >
@@ -43,10 +46,11 @@ const FinishedProjects = () => {
             src={teaHouse}
             alt="tea house landing page"
           />
-        </div>
+        </Link>
       </div>
       <div className="flex gap-14">
-        <div
+        <Link
+          to="/show3"
           className="w-5/12 h-101 relative overflow-hidden bg-blue-150 bg-opacity-40 rounded-4xl py-7 px-9 hover:bg-opacity-50 hover:cursor-pointer hover:drop-shadow-2xl hover:-translate-y-1 transition-all duration-500 group"
           tabIndex="0"
         >
@@ -61,8 +65,9 @@ const FinishedProjects = () => {
             src={catTinder}
             alt="cat tinder landing page"
           />
-        </div>
-        <div
+        </Link>
+        <Link
+          to="/show4"
           className="w-7/12 h-101 relative overflow-hidden bg-blue-250 bg-opacity-40 rounded-4xl py-7 px-9 hover:bg-opacity-50 hover:cursor-pointer hover:drop-shadow-2xl hover:-translate-y-1 transition-all duration-500 group"
           tabIndex="0"
         >
@@ -79,7 +84,7 @@ const FinishedProjects = () => {
             src={weatherMap}
             alt="weather map landing page"
           />
-        </div>
+        </Link>
       </div>
     </>
   )

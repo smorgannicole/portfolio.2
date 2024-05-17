@@ -4,7 +4,10 @@ import { Route, Routes } from "react-router-dom"
 import Work from "./pages/Work"
 import About from "./pages/About"
 import Table from "./pages/Table"
-import Show from "./pages/Show"
+import Show1 from "./pages/Show1"
+import Show2 from "./pages/Show2"
+import Show3 from "./pages/Show3"
+import Show4 from "./pages/Show4"
 import Contact from "./pages/Contact"
 
 const App = () => {
@@ -122,7 +125,10 @@ const App = () => {
       <Route path="/" element={<Work />} />
       <Route path="/archive" element={<Table projects={projects} />} />
       <Route path="/about" element={<About />} />
-      <Route path="/show" element={<Show />} />
+      <Route path="/show1" element={<Show1 />} />
+      <Route path="/show2" element={<Show2 />} />
+      <Route path="/show3" element={<Show3 />} />
+      <Route path="/show4" element={<Show4 />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
   )

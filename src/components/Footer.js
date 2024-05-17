@@ -62,7 +62,7 @@ const Footer = ({ footnote }) => {
         {footnote}
         <p className="flex justify-end">
           All code used to create this site is my own. However, I took a
-          generous amount visual inspiration from &nbsp;
+          generous amount of visual inspiration from &nbsp;
           <a
             target="_blank"
             rel="noreferrer"
