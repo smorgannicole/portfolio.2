@@ -54,7 +54,7 @@ const About = () => {
             Five years later I attended both Codeup and LEARN Academy's full
             stack web development bootcamps. Despite Codeup's closure midway
             through the course, my time at LEARN Academy reinforced my skills in
-            frontend languages and frameworks like HTML, CSS, JavaScript, and
+            frontend languages and libraries like HTML, CSS, JavaScript, and
             React. If I went back now, I'd like to think I could make at least a
             B in CS Fundamentals.
           </p>
