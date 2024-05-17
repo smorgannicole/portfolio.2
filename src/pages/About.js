@@ -28,7 +28,7 @@ const About = () => {
               style={{
                 backgroundColor: color,
               }}
-              className={`w-118 h-6 ${
+              className={`w-118 h-4 ${
                 index === 0 ? "rounded-tl-lg rounded-bl-lg" : ""
               } ${
                 index === palette.length - 1

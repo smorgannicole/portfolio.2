@@ -16,7 +16,7 @@ const App = () => {
       date: "04/2024",
       project: "Personal Website V2",
       builtWith: ["React", "Tailwind CSS"],
-      link: ["(You're on it)", "https://github.com/smorgannicole/portfolio.2"],
+      link: ["You're on it", "https://github.com/smorgannicole/portfolio.2"],
     },
     {
       date: "04/2024",

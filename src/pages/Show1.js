@@ -115,28 +115,28 @@ const Show1 = () => {
         <img
           className="h-111 rounded-lg mt-20"
           src={vv1}
-          alt="vibe villas landing page, but sign in form "
+          alt="vibe villas landing page, but sign in form"
         />
       </div>
       <div className="flex justify-center">
         <img
           className="h-111 rounded-lg mt-20"
           src={vv3}
-          alt="vibe villas landing page, but sign in form "
+          alt="vibe villas available apartments page where units are listed in rows of 3"
         />
       </div>
       <div className="flex justify-center">
         <img
           className="h-111 rounded-lg mt-20"
           src={vv4}
-          alt="vibe villas landing page, but sign in form "
+          alt="vibe villas modal where individual unit info is displayed"
         />
       </div>
       <div className="flex justify-center">
         <img
           className="h-111 rounded-lg mt-20"
           src={vv5}
-          alt="vibe villas landing page, but sign in form "
+          alt="vibe villas my apartments tab for logged in users. layout is same as available apartments page"
         />
       </div>
       <Footer />
