@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react"
 import { NavLink, useLocation } from "react-router-dom"
 
-const NavBar = () => {
+const NavBar = ({ projTitle }) => {
   const [isScrolled, setIsScrolled] = useState(false)
   const [skipHovered, setSkipHovered] = useState(false)
   const location = useLocation()
   const archive = location.pathname === "/archive"
+  const isProjectPage = location.pathname.startsWith("/show")
 
   useEffect(() => {
     const handleScroll = () => {
@@ -115,6 +116,21 @@ const NavBar = () => {
               Contact
             </NavLink>
           </li>
+          {isProjectPage && (
+            <li>
+              <NavLink
+                to="/project"
+                className={
+                  isScrolled
+                    ? "bg-blue-100 px-4 py-3 rounded-full transition-all"
+                    : "bg-white px-4 py-3 rounded-full transition-all"
+                }
+                onClick={scrollToTop}
+              >
+                {projTitle}
+              </NavLink>
+            </li>
+          )}
         </ul>
       </span>
     </nav>

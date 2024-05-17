@@ -14,6 +14,12 @@ const App = () => {
   const projects = [
     {
       date: "04/2024",
+      project: "Personal Website V2",
+      builtWith: ["React", "Tailwind CSS"],
+      link: ["(You're on it)", "https://github.com/smorgannicole/portfolio.2"],
+    },
+    {
+      date: "04/2024",
       project: "Vibe Villas",
       builtWith: ["React", "Rails", "Reactstrap"],
       link: [

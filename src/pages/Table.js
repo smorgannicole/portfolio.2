@@ -1,10 +1,13 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import MorganBack from "../components/MorganBack"
 import { FaGithub } from "react-icons/fa"
 
 const Table = ({ projects }) => {
+  const notALink = "(You're on it)"
   const getLinkText = (url) => {
-    if (url.includes("github.com")) {
+    if (url.includes(notALink)) {
+      return "(You're on it)"
+    } else if (url.includes("github.com")) {
       return "GitHub"
     } else {
       return "Deployed"
@@ -14,6 +17,8 @@ const Table = ({ projects }) => {
   const getLinkIcon = (url) => {
     if (url.includes("github.com")) {
       return <FaGithub className="w-4 h-4 ml-2" />
+    } else if (url.includes(notALink)) {
+      return null
     } else {
       return (
         <svg
@@ -34,25 +39,7 @@ const Table = ({ projects }) => {
 
   return (
     <div className="font-text text-lg flex flex-col justify-center items-center text-gray-950 py-24 px-44 min-h-screen bg-opacity-50 bg-blue-100">
-      <div className="whitespace-no-wrap flex items-start w-full gap-1 text-purple-955">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="w-6 h-6"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
-          />
-        </svg>
-        <Link to="/" className="text-xl hover:underline underline-offset-2">
-          Morgan Smith
-        </Link>
-      </div>
+      <MorganBack color={"#4D79FF"} />
       <div className="flex items-start w-full">
         <h1 className="font-title text-5xl py-5">All Projects</h1>
       </div>
@@ -89,15 +76,21 @@ const Table = ({ projects }) => {
                 <td className="py-2">
                   {project.link.map((url, linkIndex) => (
                     <div key={linkIndex}>
-                      <a
-                        href={url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-950 flex items-center opacity-70 transition-all duration-300 hover:opacity-100"
-                      >
-                        {getLinkText(url)}
-                        {getLinkIcon(url)}
-                      </a>
+                      {getLinkText(url) === notALink ? (
+                        <span className="text-gray-950 flex items-center opacity-70">
+                          {getLinkText(url)}
+                        </span>
+                      ) : (
+                        <a
+                          href={url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-gray-950 flex items-center opacity-70 transition-all duration-300 hover:opacity-100"
+                        >
+                          {getLinkText(url)}
+                          {getLinkIcon(url)}
+                        </a>
+                      )}
                     </div>
                   ))}
                 </td>
