@@ -72,6 +72,8 @@ const NavBar = () => {
                   ? !isScrolled
                     ? "bg-white px-4 py-3 rounded-full transition-all"
                     : "bg-blue-100 px-4 py-3 rounded-full transition-all"
+                  : isScrolled
+                  ? "duration-300 hover:bg-opacity-50 hover:bg-blue-100 px-4 py-3 rounded-full"
                   : "duration-300 hover:bg-opacity-50 hover:bg-white px-4 py-3 rounded-full"
               }}
               onClick={scrollToTop}
@@ -87,6 +89,8 @@ const NavBar = () => {
                   ? !isScrolled
                     ? "bg-white px-4 py-3 rounded-full transition-all"
                     : "bg-blue-100 px-4 py-3 rounded-full transition-all"
+                  : isScrolled
+                  ? "duration-300 hover:bg-opacity-50 hover:bg-blue-100 px-4 py-3 rounded-full"
                   : "duration-300 hover:bg-opacity-50 hover:bg-white px-4 py-3 rounded-full"
               }}
               onClick={scrollToTop}
@@ -102,6 +106,8 @@ const NavBar = () => {
                   ? !isScrolled
                     ? "bg-white px-4 py-3 rounded-full transition-all"
                     : "bg-blue-100 px-4 py-3 rounded-full transition-all"
+                  : isScrolled
+                  ? "duration-300 hover:bg-opacity-50 hover:bg-blue-100 px-4 py-3 rounded-full"
                   : "duration-300 hover:bg-opacity-50 hover:bg-white px-4 py-3 rounded-full"
               }}
               onClick={scrollToTop}

@@ -67,42 +67,18 @@ const Footer = ({ footnote }) => {
             target="_blank"
             rel="noreferrer"
             href="https://www.seanhalpin.xyz/"
-            className="text-pink-756 underline flex"
+            className="text-pink-756 underline flex transition-all duration-300 hover:opacity-70"
           >
-            <span>this brilliant designer</span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              className="w-5 h-5 text-pink-756"
-            >
-              <path
-                fillRule="evenodd"
-                d="M5.22 14.78a.75.75 0 0 0 1.06 0l7.22-7.22v5.69a.75.75 0 0 0 1.5 0v-7.5a.75.75 0 0 0-.75-.75h-7.5a.75.75 0 0 0 0 1.5h5.69l-7.22 7.22a.75.75 0 0 0 0 1.06Z"
-                clipRule="evenodd"
-              />
-            </svg>
+            this brilliant designer
           </a>
           &nbsp; and &nbsp;
           <a
             target="_blank"
             rel="noreferrer"
             href="https://brittanychiang.com/archive"
-            className="text-pink-756 underline flex"
+            className="text-pink-756 underline flex transition-all duration-300 hover:opacity-70"
           >
             <span>this brilliant developer</span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              className="w-5 h-5 text-pink-756"
-            >
-              <path
-                fillRule="evenodd"
-                d="M5.22 14.78a.75.75 0 0 0 1.06 0l7.22-7.22v5.69a.75.75 0 0 0 1.5 0v-7.5a.75.75 0 0 0-.75-.75h-7.5a.75.75 0 0 0 0 1.5h5.69l-7.22 7.22a.75.75 0 0 0 0 1.06Z"
-                clipRule="evenodd"
-              />
-            </svg>
           </a>
         </p>
         <p className="font-text flex justify-end">
@@ -111,22 +87,9 @@ const Footer = ({ footnote }) => {
             href="https://poetic-tiramisu-cda399.netlify.app/"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center"
+            className="flex items-center transition-all duration-300 hover:opacity-70"
           >
-            &nbsp;
-            <span className="text-pink-756 underline">here</span>{" "}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              className="w-5 h-5 text-pink-756"
-            >
-              <path
-                fillRule="evenodd"
-                d="M5.22 14.78a.75.75 0 0 0 1.06 0l7.22-7.22v5.69a.75.75 0 0 0 1.5 0v-7.5a.75.75 0 0 0-.75-.75h-7.5a.75.75 0 0 0 0 1.5h5.69l-7.22 7.22a.75.75 0 0 0 0 1.06Z"
-                clipRule="evenodd"
-              />
-            </svg>
+            <span className="text-pink-756 underline">here</span>
           </a>
         </p>
       </div>

@@ -5,6 +5,7 @@ import Work from "./pages/Work"
 import About from "./pages/About"
 import Table from "./pages/Table"
 import Show from "./pages/Show"
+import Contact from "./pages/Contact"
 
 const App = () => {
   const projects = [
@@ -122,6 +123,7 @@ const App = () => {
       <Route path="/archive" element={<Table projects={projects} />} />
       <Route path="/about" element={<About />} />
       <Route path="/show" element={<Show />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   )
 }
