@@ -3,7 +3,7 @@ import React from "react"
 const Footer = ({ footnote }) => {
   return (
     <div className="text-gray-950 text-font">
-      <div className="flex p-20 justify-center gap-20">
+      <div className="flex p-20 mt-5 justify-center gap-20">
         <p className="flex" style={{ alignItems: "center" }}>
           © 2024 Morgan Smith
         </p>

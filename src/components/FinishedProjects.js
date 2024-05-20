@@ -38,6 +38,7 @@ const FinishedProjects = () => {
           to="/show2"
           className="w-5/12 h-101 relative overflow-hidden bg-purple-650 bg-opacity-55 rounded-4xl py-7 px-9 hover:bg-opacity-65 hover:cursor-pointer hover:drop-shadow-2xl hover:-translate-y-1 transition-all duration-500 group"
           tabIndex="0"
+          onClick={handleViewProj}
         >
           <div className="flex flex-col text-gray-950">
             <h3 className="font-title text-5xl flex justify-end">Tea House</h3>
@@ -57,6 +58,7 @@ const FinishedProjects = () => {
           to="/show3"
           className="w-5/12 h-101 relative overflow-hidden bg-blue-150 bg-opacity-40 rounded-4xl py-7 px-9 hover:bg-opacity-50 hover:cursor-pointer hover:drop-shadow-2xl hover:-translate-y-1 transition-all duration-500 group"
           tabIndex="0"
+          onClick={handleViewProj}
         >
           <div className="flex flex-col text-gray-950">
             <h3 className="font-title text-5xl flex justify-end">Cat Tinder</h3>
@@ -74,6 +76,7 @@ const FinishedProjects = () => {
           to="/show4"
           className="w-333 h-101 relative overflow-hidden bg-blue-250 bg-opacity-40 rounded-4xl py-7 px-9 hover:bg-opacity-50 hover:cursor-pointer hover:drop-shadow-2xl hover:-translate-y-1 transition-all duration-500 group"
           tabIndex="0"
+          onClick={handleViewProj}
         >
           <div className="flex flex-col text-gray-950">
             <h3 className="font-title text-5xl flex justify-end">
