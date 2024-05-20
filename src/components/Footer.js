@@ -62,7 +62,7 @@ const Footer = ({ footnote }) => {
         {footnote}
         <p className="flex justify-end">
           All code is my own. However, I took a generous amount of visual
-          inspiration from &nbsp;
+          inspiration from&nbsp;
           <a
             target="_blank"
             rel="noreferrer"
@@ -71,7 +71,7 @@ const Footer = ({ footnote }) => {
           >
             this brilliant designer
           </a>
-          &nbsp; and &nbsp;
+          &nbsp;and&nbsp;
           <a
             target="_blank"
             rel="noreferrer"
@@ -82,7 +82,7 @@ const Footer = ({ footnote }) => {
           </a>
         </p>
         <p className="font-text flex justify-end">
-          A less-accessible iteration of my portfolio can be found &nbsp;
+          A less-accessible iteration of my portfolio can be found&nbsp;
           <a
             href="https://poetic-tiramisu-cda399.netlify.app/"
             target="_blank"
