@@ -26,7 +26,7 @@ const NavBar = ({ projTitle }) => {
   }
 
   return !archive ? (
-    <nav className="fixed top-5 left-1/2 transform -translate-x-1/2 font-text text-gray-950 w-full flex justify-center z-50">
+    <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 font-text text-gray-950 w-full flex justify-center z-50">
       <span>
         <ul
           className={`flex gap-14 text-xl transition-all duration-500 ${

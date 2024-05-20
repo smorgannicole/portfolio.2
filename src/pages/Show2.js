@@ -96,7 +96,7 @@ const Show2 = () => {
         <img
           className="h-111 rounded-lg mt-20"
           src={t3}
-          alt="tea house about us featuring an image and fluff text"
+          alt="tea house about us featuring tea fields and fluff text"
         />
       </div>
       <Footer />

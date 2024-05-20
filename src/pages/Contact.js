@@ -1,6 +1,6 @@
 import React from "react"
 import NavBar from "../components/NavBar"
-import AmbientBG from "../components/MiniAmbient"
+import AmbientBG from "../components/AmbientBG"
 
 const Contact = () => {
   return (
