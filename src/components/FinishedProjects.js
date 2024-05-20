@@ -28,7 +28,7 @@ const FinishedProjects = () => {
           </div>
           <div style={{ overflow: "hidden" }}>
             <img
-              className="flex h-auto absolute -bottom-36 -right-20 rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
+              className="flex h-auto absolute -bottom-20 -right-20 rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
               src={vibeVillas}
               alt="vibe villas landing page"
             />
@@ -46,7 +46,7 @@ const FinishedProjects = () => {
             </p>
           </div>
           <img
-            className="flex h-auto absolute -bottom-5 -right-20 rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
+            className="flex h-auto absolute bottom-0 -right-20 rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
             src={teaHouse}
             alt="tea house landing page"
           />
@@ -65,7 +65,7 @@ const FinishedProjects = () => {
             </p>
           </div>
           <img
-            className="flex h-auto absolute -bottom-8 -right-20 rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
+            className="flex h-auto absolute bottom-0 -right-20 rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
             src={catTinder}
             alt="cat tinder landing page"
           />
@@ -80,11 +80,11 @@ const FinishedProjects = () => {
               Weather Map
             </h3>
             <p className="font-text flex justify-end text-2xl">
-              JavaScript / OpenWeather API / Mapbox API
+              JS / OpenWeather API / Mapbox API
             </p>
           </div>
           <img
-            className="flex h-auto absolute -bottom-40 -right-20 rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
+            className="flex h-auto absolute -bottom-20 -right-20 rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
             src={weatherMap}
             alt="weather map landing page"
           />

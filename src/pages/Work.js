@@ -1,12 +1,19 @@
 import React from "react"
 import AmbientBG from "../components/AmbientBG"
+import NavBar from "../components/NavBar"
 import Hero from "../components/Hero"
 import Projects from "../components/Projects"
 
 const Work = () => {
   return (
-    <div className="bg-blue-100 min-h-screen bg-opacity-50 overflow-x-clip px-10 pb-5">
-      <AmbientBG hero={<Hero />} />
+    <div className="bg-blue-100 min-h-screen bg-opacity-50 px-44 py-10 overflow-hidden">
+      <NavBar />
+      <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center overflow-x-clip pointer-events-none">
+        <AmbientBG />
+      </div>
+      <div className="flex justify-end 2xl:justify-center pt-44 pb-56 px-20">
+        <Hero />
+      </div>
       <Projects />
     </div>
   )

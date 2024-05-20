@@ -61,13 +61,13 @@ const Footer = ({ footnote }) => {
       <div>
         {footnote}
         <p className="flex justify-end">
-          All code used to create this site is my own. However, I took a
-          generous amount of visual inspiration from &nbsp;
+          All code is my own. However, I took a generous amount of visual
+          inspiration from &nbsp;
           <a
             target="_blank"
             rel="noreferrer"
             href="https://www.seanhalpin.xyz/"
-            className="text-pink-756 underline flex transition-all duration-300 hover:opacity-70"
+            className="text-pink-756 underline transition-all duration-300 hover:opacity-70"
           >
             this brilliant designer
           </a>
@@ -76,9 +76,9 @@ const Footer = ({ footnote }) => {
             target="_blank"
             rel="noreferrer"
             href="https://brittanychiang.com/archive"
-            className="text-pink-756 underline flex transition-all duration-300 hover:opacity-70"
+            className="text-pink-756 underline transition-all duration-300 hover:opacity-70"
           >
-            <span>this brilliant developer</span>
+            this brilliant developer
           </a>
         </p>
         <p className="font-text flex justify-end">
