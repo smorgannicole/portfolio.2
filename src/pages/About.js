@@ -39,7 +39,7 @@ const About = () => {
           ))}
         </div>
       </h1>
-      <div className="flex mt-16  text-xl">
+      <div className="flex mt-16 text-xl">
         <img
           className="h-101 w-auto rounded-xl"
           src={me}
@@ -66,7 +66,7 @@ const About = () => {
           </p>
         </article>
       </div>
-      <div className="flex mt-36">
+      <div className="flex mt-28 mb-10">
         <div className="w-120 flex flex-col justify-center mr-5">
           <article>
             <h2 className="font-text text-4xl">
