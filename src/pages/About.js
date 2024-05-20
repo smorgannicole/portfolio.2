@@ -39,13 +39,13 @@ const About = () => {
           ))}
         </div>
       </h1>
-      <div className="flex mt-16 text-xl">
+      <div className="flex mt-16 text-xl justify-center">
         <img
           className="h-101 w-auto rounded-xl"
           src={me}
           alt="Morgan in front of a blue sculpture"
         />
-        <article className="flex flex-col justify-center ml-5 gap-5">
+        <article className="w-121 flex flex-col justify-center ml-5 gap-5">
           <p>
             I was first introduced to coding in my CS Fundamentals class during
             my second year of college— I finished with a C.
@@ -66,7 +66,7 @@ const About = () => {
           </p>
         </article>
       </div>
-      <div className="flex mt-28 mb-10">
+      <div className="flex mt-28 mb-10 justify-center">
         <div className="w-120 flex flex-col justify-center mr-5">
           <article>
             <h2 className="font-text text-4xl">
@@ -92,7 +92,9 @@ const About = () => {
           allowFullScreen
         ></iframe>
       </div>
-      <Footer />
+      <div className="flex justify-end 2xl:justify-center">
+        <Footer />
+      </div>
     </div>
   )
 }
