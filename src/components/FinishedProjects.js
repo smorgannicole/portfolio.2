@@ -11,10 +11,10 @@ const FinishedProjects = () => {
   }
   return (
     <>
-      <div className="flex py-10 gap-14">
+      <div className="flex py-14 gap-14">
         <Link
           to="/show1"
-          className="w-7/12 h-101 relative overflow-hidden bg-pink-750 bg-opacity-55 rounded-4xl py-7 px-9 hover:bg-opacity-65 hover:cursor-pointer hover:drop-shadow-2xl hover:-translate-y-1 transition-all duration-500 group"
+          className="w-333 h-101 relative overflow-hidden bg-pink-750 bg-opacity-55 rounded-4xl py-7 px-9 hover:bg-opacity-65 hover:cursor-pointer hover:drop-shadow-2xl hover:-translate-y-1 transition-all duration-500 group"
           tabIndex="0"
           onClick={handleViewProj}
         >
@@ -28,7 +28,7 @@ const FinishedProjects = () => {
           </div>
           <div style={{ overflow: "hidden" }}>
             <img
-              className="flex h-auto absolute -bottom-20 -right-20 rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
+              className="flex h-auto absolute -bottom-52 -right-20 rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
               src={vibeVillas}
               alt="vibe villas landing page"
             />
@@ -46,7 +46,7 @@ const FinishedProjects = () => {
             </p>
           </div>
           <img
-            className="flex h-auto absolute bottom-0 -right-20 rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
+            className="flex h-auto absolute -bottom-2 -right-20 rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
             src={teaHouse}
             alt="tea house landing page"
           />
@@ -65,14 +65,14 @@ const FinishedProjects = () => {
             </p>
           </div>
           <img
-            className="flex h-auto absolute bottom-0 -right-20 rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
+            className="flex h-auto absolute -bottom-2 -right-20 rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
             src={catTinder}
             alt="cat tinder landing page"
           />
         </Link>
         <Link
           to="/show4"
-          className="w-7/12 h-101 relative overflow-hidden bg-blue-250 bg-opacity-40 rounded-4xl py-7 px-9 hover:bg-opacity-50 hover:cursor-pointer hover:drop-shadow-2xl hover:-translate-y-1 transition-all duration-500 group"
+          className="w-333 h-101 relative overflow-hidden bg-blue-250 bg-opacity-40 rounded-4xl py-7 px-9 hover:bg-opacity-50 hover:cursor-pointer hover:drop-shadow-2xl hover:-translate-y-1 transition-all duration-500 group"
           tabIndex="0"
         >
           <div className="flex flex-col text-gray-950">
@@ -84,7 +84,7 @@ const FinishedProjects = () => {
             </p>
           </div>
           <img
-            className="flex h-auto absolute -bottom-20 -right-20 rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
+            className="flex h-auto absolute -bottom-52 -right-20 rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
             src={weatherMap}
             alt="weather map landing page"
           />
