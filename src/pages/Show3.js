@@ -144,7 +144,7 @@ const Show3 = () => {
         <img
           className="h-111 rounded-lg mt-20"
           src={tinder2}
-          alt="profile page- an image with cats laying on concrete is the background. Over top is the cat profile clicked with more details about the cat"
+          alt="profile page- 3 cats laying on concrete is the background. Over top is the cat profile clicked with more details about the cat"
         />
       </div>
       <div className="flex justify-center">

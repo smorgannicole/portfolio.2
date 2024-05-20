@@ -1,7 +1,6 @@
 import React from "react"
 import NavBar from "../components/NavBar"
 import Footer from "../components/Footer"
-import weatherMap from "../assets/weather-map.jpg"
 import map1 from "../assets/map1.png"
 import map2 from "../assets/map2.png"
 import map3 from "../assets/map3.png"
@@ -87,7 +86,7 @@ const Show4 = () => {
         <img
           className="h-111 rounded-lg mt-20"
           src={map2}
-          alt="same image as above, but the text 'Chicago' is typed in the weather search bar"
+          alt="same as landing page as above, but the text 'Chicago' is typed in the weather search bar"
         />
       </div>
       <div className="flex justify-center">
