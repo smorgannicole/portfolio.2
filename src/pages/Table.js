@@ -39,11 +39,11 @@ const Table = ({ projects }) => {
 
   return (
     <div className="font-text text-lg flex flex-col justify-center items-center text-gray-950 py-24 px-44 min-h-screen bg-opacity-50 bg-blue-100">
-      <MorganBack color={"#4D79FF"} />
-      <div className="flex items-start w-full">
+      <div className="flex flex-col items-start w-223">
+        <MorganBack color={"#4D79FF"} />
         <h1 className="font-title text-5xl py-5">All Projects</h1>
       </div>
-      <table className="table-auto">
+      <table className="table-auto w-223">
         <thead className="text-left">
           <tr className="-m-10">
             <th className="p-7">Date</th>
