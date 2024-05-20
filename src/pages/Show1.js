@@ -102,8 +102,8 @@ const Show1 = () => {
       <h2 className="font-title text-5xl mt-20 items-center flex flex-col justify-center">
         Overview
       </h2>
-      <article className="px-96 mt-10">
-        <p className="text-xl">
+      <article className="px-96 mt-10 flex justify-center">
+        <p className="text-xl w-120">
           A React and Rails API project with a PostgreSQL database. User
           authentication and authorization are handled via Devise and JWT,
           enabling users to list units for rent and manage their listings.

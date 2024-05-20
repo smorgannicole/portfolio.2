@@ -72,8 +72,8 @@ const Show2 = () => {
       <h2 className="font-title text-5xl mt-20 items-center flex flex-col justify-center">
         Overview
       </h2>
-      <article className="px-96 mt-10">
-        <p className="text-xl">
+      <article className="px-96 mt-10 flex justify-center">
+        <p className="text-xl w-120">
           A React app where visitors access tea info via the Boonaki API. Tea
           enthusiasts can add, delete, and edit teas, all stored locally.
         </p>
