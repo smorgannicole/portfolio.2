@@ -92,9 +92,7 @@ const About = () => {
           allowFullScreen
         ></iframe>
       </div>
-      <div className="flex justify-end 2xl:justify-center">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   )
 }
