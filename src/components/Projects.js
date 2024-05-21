@@ -4,7 +4,6 @@ import InProgressProjects from "./InProgressProjects"
 import Footer from "./Footer"
 import Footnote from "./Footnote"
 import { Link } from "react-router-dom"
-import DisplayProjects from "./DisplayProjects"
 
 const Projects = () => {
   const [displayFinished, setDisplayFinished] = useState(true)
