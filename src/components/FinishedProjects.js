@@ -1,12 +1,19 @@
 import React from "react"
 import DisplayProjects from "./DisplayProjects"
+import ViewArchive from "./ViewArchive"
+import Footer from "../components/Footer"
+import Footnote from "../components/Footnote"
 import { Link } from "react-router-dom"
 import vibeVillas from "../assets/vibe-villas.png"
 import teaHouse from "../assets/tea.png"
 import catTinder from "../assets/cat-tinder.png"
 import weatherMap from "../assets/map1.png"
 
-const FinishedProjects = ({ displayFinished, setDisplayFinished }) => {
+const FinishedProjects = ({
+  displayFinished,
+  setDisplayFinished,
+  handleViewArchive,
+}) => {
   const handleViewProj = () => {
     window.scrollTo(0, 0)
   }
@@ -118,6 +125,10 @@ const FinishedProjects = ({ displayFinished, setDisplayFinished }) => {
               </div>
             </div>
           </Link>
+          <ViewArchive handleViewArchive={handleViewArchive} />
+        </div>
+        <div className="w-full max-w-screen-2xl">
+          <Footer footnote={displayFinished ? <Footnote /> : null} />
         </div>
       </div>
     </>
@@ -125,3 +136,10 @@ const FinishedProjects = ({ displayFinished, setDisplayFinished }) => {
 }
 
 export default FinishedProjects
+{
+  /* <div className="w-full">
+        <div className="max-w-screen-2xl">
+          <Footer footnote={displayFinished ? <Footnote /> : null} />
+        </div>
+      </div> */
+}

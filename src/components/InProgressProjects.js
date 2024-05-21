@@ -1,7 +1,11 @@
 import React from "react"
 import DisplayProjects from "./DisplayProjects"
 
-const InProgress = ({ displayFinished, setDisplayFinished }) => {
+const InProgress = ({
+  displayFinished,
+  setDisplayFinished,
+  handleViewArchive,
+}) => {
   return (
     <div>
       <DisplayProjects

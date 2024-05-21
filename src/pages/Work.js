@@ -4,9 +4,6 @@ import NavBar from "../components/NavBar"
 import Hero from "../components/Hero"
 import FinishedProjects from "../components/FinishedProjects"
 import InProgressProjects from "../components/InProgressProjects"
-import Footer from "../components/Footer"
-import Footnote from "../components/Footnote"
-import ViewArchive from "../components/ViewArchive"
 
 const Work = () => {
   const [displayFinished, setDisplayFinished] = useState(true)
@@ -29,15 +26,15 @@ const Work = () => {
           <FinishedProjects
             displayFinished={displayFinished}
             setDisplayFinished={setDisplayFinished}
+            handleViewArchive={handleViewArchive}
           />
         ) : (
           <InProgressProjects
             displayFinished={displayFinished}
             setDisplayFinished={setDisplayFinished}
+            handleViewArchive={handleViewArchive}
           />
         )}
-        <ViewArchive handleViewArchive={handleViewArchive} />
-        <Footer footnote={displayFinished ? <Footnote /> : null} />
       </main>
     </div>
   )

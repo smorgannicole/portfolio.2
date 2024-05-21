@@ -2,63 +2,65 @@ import React from "react"
 
 const Footer = ({ footnote }) => {
   return (
-    <div className="text-gray-950 text-font">
-      <div className="flex p-20 mt-5 justify-center gap-20">
-        <p className="flex" style={{ alignItems: "center" }}>
-          © 2024 Morgan Smith
-        </p>
-        <div className="flex flex-col">
-          <p className="font-bold mb-3">Elsewhere</p>
-          <ul className="space-y-3">
-            <li>
-              <a
-                href="https://github.com/smorgannicole"
-                target="_blank"
-                rel="noreferrer"
-                className="opacity-70 transition-all duration-300 hover:opacity-100"
-              >
-                Github
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://dribbble.com/smorgannicole"
-                target="_blank"
-                rel="noreferrer"
-                className="opacity-70 transition-all duration-300 hover:opacity-100"
-              >
-                Dribbble
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/morgansmith13"
-                target="_blank"
-                rel="noreferrer"
-                className="opacity-70 transition-all duration-300 hover:opacity-100"
-              >
-                LinkedIn
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div className="flex flex-col">
-          <p className="font-bold mb-3">Contact</p>
-          <ul>
-            <li>
-              <a
-                href="mailto:smorgannicole@gmail.com"
-                target="_blank"
-                rel="noreferrer"
-                className="opacity-70 transition-all duration-300 hover:opacity-100"
-              >
-                Gmail
-              </a>
-            </li>
-          </ul>
+    <>
+      <div className="text-gray-950 text-font text-md">
+        <div className="flex p-20 mt-5 justify-center gap-20">
+          <p className="flex" style={{ alignItems: "center" }}>
+            © 2024 Morgan Smith
+          </p>
+          <div className="flex flex-col">
+            <p className="font-bold mb-3">Elsewhere</p>
+            <ul className="space-y-3">
+              <li>
+                <a
+                  href="https://github.com/smorgannicole"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="opacity-70 transition-all duration-300 hover:opacity-100"
+                >
+                  Github
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://dribbble.com/smorgannicole"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="opacity-70 transition-all duration-300 hover:opacity-100"
+                >
+                  Dribbble
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/morgansmith13"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="opacity-70 transition-all duration-300 hover:opacity-100"
+                >
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="flex flex-col">
+            <p className="font-bold mb-3">Contact</p>
+            <ul>
+              <li>
+                <a
+                  href="mailto:smorgannicole@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="opacity-70 transition-all duration-300 hover:opacity-100"
+                >
+                  Gmail
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div>
+      <div className="text-sm">
         {footnote}
         <p className="flex justify-end">
           All code is my own. However, I took a generous amount of visual
@@ -93,7 +95,7 @@ const Footer = ({ footnote }) => {
           </a>
         </p>
       </div>
-    </div>
+    </>
   )
 }
 
