@@ -26,8 +26,3 @@
 .font-text {
   font-family: "Albert Sans", sans-serif;
 }
-
-.notch-styling {
-  padding: env(safe-area-inset-top) env(safe-area-inset-right)
-    env(safe-area-inset-bottom) env(safe-area-inset-left);
-}

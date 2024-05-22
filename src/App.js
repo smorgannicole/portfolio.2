@@ -127,18 +127,16 @@ const App = () => {
     },
   ]
   return (
-    <div className="notch-styling">
-      <Routes>
-        <Route path="/" element={<Work />} />
-        <Route path="/archive" element={<Table projects={projects} />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/show1" element={<Show1 />} />
-        <Route path="/show2" element={<Show2 />} />
-        <Route path="/show3" element={<Show3 />} />
-        <Route path="/show4" element={<Show4 />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<Work />} />
+      <Route path="/archive" element={<Table projects={projects} />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/show1" element={<Show1 />} />
+      <Route path="/show2" element={<Show2 />} />
+      <Route path="/show3" element={<Show3 />} />
+      <Route path="/show4" element={<Show4 />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
   )
 }
 
