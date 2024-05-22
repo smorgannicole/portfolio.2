@@ -5,15 +5,15 @@ import AmbientBG from "../components/AmbientBG"
 const Contact = () => {
   return (
     <>
-      <div className="font-text text-gray-950 min-h-screen bg-opacity-50 bg-blue-100 px-32 py-10">
+      <div className="font-text text-gray-950 min-h-screen bg-opacity-50 bg-blue-100 px-10 screen-md-sm-660:px-32 py-10">
         <NavBar />
         <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center overflow-x-clip pointer-events-none">
           <AmbientBG />
         </div>
-        <h1 className="text-3xl screen-md-sm:text-6xl font-title font-bold pt-36 items-center flex flex-col justify-center">
+        <h1 className="text-3xl screen-md-sm:text-5xl font-title font-bold pt-36 items-center flex flex-col justify-center">
           <span>Feel Free to Say Hello!</span>
         </h1>
-        <ul className="mt-10 flex flex-col gap-5 text-xl">
+        <ul className="mt-10 flex flex-col gap-5 text-md screen-md-sm:text-xl">
           <li className="flex flex-wrap justify-center">
             Email me&nbsp;
             <a
@@ -38,7 +38,7 @@ const Contact = () => {
               </span>
             </a>
           </li>
-          <li className="flex flex-wrap justify-center text-xl">
+          <li className="flex flex-wrap justify-center text-md screen-md-sm:text-xl">
             Connect with me on&nbsp;
             <a
               className="underline transition-all duration-300 hover:opacity-70 text-xl"
@@ -63,7 +63,7 @@ const Contact = () => {
               </span>
             </a>
           </li>
-          <li className="flex flex-wrap justify-center text-xl">
+          <li className="flex flex-wrap justify-center text-md screen-md-sm:text-xl">
             Check out my work on&nbsp;
             <a
               className="transition-all duration-300 hover:opacity-70 text-xl"
