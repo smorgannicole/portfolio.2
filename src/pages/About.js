@@ -18,7 +18,7 @@ const About = () => {
   ]
   return (
     <div
-      className="font-text text-gray-950 min-h-screen bg-opacity-50 bg-blue-100 px-10 screen-md:px-20 py-10 flex flex-col"
+      className="font-text text-gray-950 min-h-screen bg-opacity-50 bg-blue-100 px-5 screen-md:px-20 py-10 flex flex-col"
       style={{ alignItems: "center" }}
     >
       <div className="w-full max-w-custom-lg">

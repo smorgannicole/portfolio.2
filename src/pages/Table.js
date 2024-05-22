@@ -39,7 +39,7 @@ const Table = ({ projects }) => {
 
   return (
     <div className="min-h-screen bg-blue-100 bg-opacity-50">
-      <div className="font-text text-sm screen-md-sm:text-lg mx-auto text-gray-950 py-8 screen-md-sm:py-24 px-10 min-h-screen max-w-screen-xl">
+      <div className="font-text text-sm screen-md-sm:text-lg mx-auto text-gray-950 py-8 screen-md-sm:py-24 px-5 min-h-screen max-w-screen-xl">
         <div className="flex flex-col items-start">
           <MorganBack color={"#4D79FF"} />
           <h1 className="font-title text-3xl screen-md-sm:text-5xl py-5">
