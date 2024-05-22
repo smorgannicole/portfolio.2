@@ -20,27 +20,27 @@ const FinishedProjects = ({
   return (
     <>
       <div className="flex flex-col" style={{ alignItems: "center" }}>
-        <div className="relative py-14 gap-14 grid grid-cols-2 w-full max-w-screen-2xl">
+        <div className="relative py-14 gap-14 grid grid-cols-1 screen-md:grid-cols-2 w-full max-w-screen-2xl">
           <DisplayProjects
             displayFinished={displayFinished}
             setDisplayFinished={setDisplayFinished}
           />
           <Link
             to="/show1"
-            className="h-101 relative overflow-hidden bg-pink-750 bg-opacity-55 rounded-4xl py-7 px-8 hover:bg-opacity-60 hover:cursor-pointer hover:drop-shadow-xl hover:-translate-y-1 transition-all duration-500 group"
+            className="h-40 screen-md-sm:h-101 relative overflow-hidden bg-pink-750 bg-opacity-55 rounded-4xl py-7 px-8 hover:bg-opacity-60 hover:cursor-pointer hover:drop-shadow-xl hover:-translate-y-1 transition-all duration-500 group"
             tabIndex="0"
             onClick={handleViewProj}
           >
             <div className="flex flex-col text-gray-950 mt-4">
-              <h3 className="font-title text-5xl flex justify-end">
+              <h3 className="font-title text-3xl screen-md-sm:text-5xl flex justify-start screen-md-sm:justify-end">
                 Vibe Villas
               </h3>
-              <p className="font-text flex justify-end text-2xl">
+              <p className="font-text flex justify-start screen-md-sm:justify-end text-md screen-md-sm:text-2xl">
                 React / Rails / Reactstrap
               </p>
             </div>
             <div className="mt-10">
-              <div className="absolute flex justify-end w-full">
+              <div className="absolute flex justify-end w-full hidden screen-md-sm:block">
                 <img
                   className="rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
                   src={vibeVillas}
@@ -51,20 +51,20 @@ const FinishedProjects = ({
           </Link>
           <Link
             to="/show2"
-            className="h-101 relative overflow-hidden bg-purple-650 bg-opacity-55 rounded-4xl py-7 px-8 hover:bg-opacity-60 hover:cursor-pointer hover:drop-shadow-xl hover:-translate-y-1 transition-all duration-500 group"
+            className="h-40 screen-md-sm:h-101 relative overflow-hidden bg-purple-650 bg-opacity-55 rounded-4xl py-7 px-8 hover:bg-opacity-60 hover:cursor-pointer hover:drop-shadow-xl hover:-translate-y-1 transition-all duration-500 group"
             tabIndex="0"
             onClick={handleViewProj}
           >
             <div className="flex flex-col text-gray-950 mt-4">
-              <h3 className="font-title text-5xl flex justify-end">
+              <h3 className="font-title text-3xl screen-md-sm:text-5xl flex justify-start screen-md-sm:justify-end">
                 Tea House
               </h3>
-              <p className="font-text flex justify-end text-2xl">
+              <p className="font-text flex justify-start screen-md-sm:justify-end text-md screen-md-sm:text-2xl">
                 React / Boonaki Tea API
               </p>
             </div>
             <div className="mt-10">
-              <div className="flex absolute justify-end w-full">
+              <div className="absolute flex justify-end w-full hidden screen-md-sm:block">
                 <img
                   className="rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
                   src={teaHouse}
@@ -76,23 +76,23 @@ const FinishedProjects = ({
         </div>
       </div>
       <div className="flex flex-col" style={{ alignItems: "center" }}>
-        <div className="relative gap-14 grid grid-cols-2 w-full max-w-screen-2xl">
+        <div className="relative gap-14 grid grid-cols-1 screen-md:grid-cols-2 w-full max-w-screen-2xl">
           <Link
             to="/show3"
-            className="h-101 relative overflow-hidden bg-blue-150 bg-opacity-40 rounded-4xl py-7 px-8 hover:bg-opacity-45 hover:cursor-pointer hover:drop-shadow-xl hover:-translate-y-1 transition-all duration-500 group"
+            className="h-40 screen-md-sm:h-101 relative overflow-hidden bg-blue-150 bg-opacity-40 rounded-4xl py-7 px-8 hover:bg-opacity-45 hover:cursor-pointer hover:drop-shadow-xl hover:-translate-y-1 transition-all duration-500 group"
             tabIndex="0"
             onClick={handleViewProj}
           >
             <div className="flex flex-col text-gray-950 mt-4">
-              <h3 className="font-title text-5xl flex justify-end">
+              <h3 className="font-title text-3xl screen-md-sm:text-5xl flex justify-start screen-md-sm:justify-end">
                 Cat Tinder
               </h3>
-              <p className="font-text flex justify-end text-2xl">
+              <p className="font-text flex justify-start screen-md-sm:justify-end text-md screen-md-sm:text-2xl">
                 React / Rails / Reactstrap
               </p>
             </div>
             <div className="mt-10">
-              <div className="flex absolute justify-end w-full">
+              <div className="absolute flex justify-end w-full hidden screen-md-sm:block">
                 <img
                   className="rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
                   src={catTinder}
@@ -103,20 +103,20 @@ const FinishedProjects = ({
           </Link>
           <Link
             to="/show4"
-            className="h-101 relative overflow-hidden bg-blue-250 bg-opacity-40 rounded-4xl py-7 px-8 hover:bg-opacity-45 hover:cursor-pointer hover:drop-shadow-xl hover:-translate-y-1 transition-all duration-500 group"
+            className="h-40 screen-md-sm:h-101 relative overflow-hidden bg-blue-250 bg-opacity-40 rounded-4xl py-7 px-8 hover:bg-opacity-45 hover:cursor-pointer hover:drop-shadow-xl hover:-translate-y-1 transition-all duration-500 group"
             tabIndex="0"
             onClick={handleViewProj}
           >
             <div className="flex flex-col text-gray-950 mt-4">
-              <h3 className="font-title text-5xl flex justify-end">
+              <h3 className="font-title text-3xl screen-md-sm:text-5xl flex justify-start screen-md-sm:justify-end">
                 Weather Map
               </h3>
-              <p className="font-text flex justify-end text-2xl">
+              <p className="font-text flex justify-start screen-md-sm:justify-end text-md screen-md-sm:text-2xl">
                 JS / OpenWeather API / Mapbox API
               </p>
             </div>
             <div className="mt-10">
-              <div className="flex absolute justify-end w-full">
+              <div className="absolute flex justify-end w-full hidden screen-md-sm:block">
                 <img
                   className="rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
                   src={weatherMap}

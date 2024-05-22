@@ -19,7 +19,7 @@ const InProgress = ({ displayFinished, setDisplayFinished }) => {
           </div>
         </div>
       </div>
-      <div className="w-full max-w-screen-2xl">
+      <div className="w-full max-w-screen-2xl xl:w-96">
         <Footer footnote={displayFinished ? <Footnote /> : null} />
       </div>
     </>

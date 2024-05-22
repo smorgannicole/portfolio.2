@@ -67,6 +67,11 @@ module.exports = {
       maxWidth: {
         "screen-md-lg": "900px",
       },
+      screens: {
+        "screen-md": "1024px",
+        "screen-md-sm-660": "660px",
+        "screen-md-sm": "460px",
+      },
       borderRadius: {
         "4xl": "4rem",
       },
