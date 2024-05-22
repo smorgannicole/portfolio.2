@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const ViewArchive = ({ handleViewArchive }) => {
   return (
-    <div className="font-text text-xl ml-3 -mt-5 whitespace-no-wrap flex items-center gap-1 text-gray-950">
+    <div className="font-text text:lg screen-md-sm-660:text-xl ml-3 -mt-5 whitespace-no-wrap flex items-center gap-1 text-gray-950">
       <Link
         to="/archive"
         className="hover:underline underline-offset-2"
