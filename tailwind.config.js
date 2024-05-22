@@ -64,6 +64,9 @@ module.exports = {
       margin: {
         97: "33rem",
       },
+      maxWidth: {
+        "screen-md-lg": "900px",
+      },
       borderRadius: {
         "4xl": "4rem",
       },

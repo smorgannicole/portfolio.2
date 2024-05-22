@@ -1,21 +1,28 @@
 import React from "react"
 import DisplayProjects from "./DisplayProjects"
+import Footer from "./Footer"
+import Footnote from "./Footnote"
 
-const InProgress = ({
-  displayFinished,
-  setDisplayFinished,
-  handleViewArchive,
-}) => {
+const InProgress = ({ displayFinished, setDisplayFinished }) => {
   return (
-    <div>
-      <DisplayProjects
-        displayFinished={displayFinished}
-        setDisplayFinished={setDisplayFinished}
-      />
-      <h3 className="pt-10 font-title text-gray-950 text-3xl">
-        *This portfolio*
-      </h3>
-    </div>
+    <>
+      <div className="flex flex-col" style={{ alignItems: "center" }}>
+        <div className="relative py-14 gap-14 grid grid-cols-2 w-full max-w-screen-2xl">
+          <DisplayProjects
+            displayFinished={displayFinished}
+            setDisplayFinished={setDisplayFinished}
+          />
+          <div className="flex flex-col text-gray-950 mt-4">
+            <h3 className="pt-10 font-title text-gray-950 text-3xl">
+              *This portfolio*
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div className="w-full max-w-screen-2xl">
+        <Footer footnote={displayFinished ? <Footnote /> : null} />
+      </div>
+    </>
   )
 }
 

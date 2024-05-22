@@ -136,10 +136,3 @@ const FinishedProjects = ({
 }
 
 export default FinishedProjects
-{
-  /* <div className="w-full">
-        <div className="max-w-screen-2xl">
-          <Footer footnote={displayFinished ? <Footnote /> : null} />
-        </div>
-      </div> */
-}

@@ -4,7 +4,7 @@ const Footer = ({ footnote }) => {
   return (
     <>
       <div className="text-gray-950 text-font text-md">
-        <div className="flex p-20 mt-5 justify-center gap-20">
+        <div className="flex py-20 mt-5 justify-center gap-20">
           <p className="flex" style={{ alignItems: "center" }}>
             © 2024 Morgan Smith
           </p>
