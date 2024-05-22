@@ -125,7 +125,9 @@ const FinishedProjects = ({
               </div>
             </div>
           </Link>
-          <ViewArchive handleViewArchive={handleViewArchive} />
+          <div className="-mt-5 screen-md-sm:mt-0">
+            <ViewArchive handleViewArchive={handleViewArchive} />
+          </div>
         </div>
         <div className="w-full max-w-screen-2xl">
           <Footer footnote={displayFinished ? <Footnote /> : null} />

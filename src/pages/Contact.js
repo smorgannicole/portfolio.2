@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center overflow-x-clip pointer-events-none">
           <AmbientBG />
         </div>
-        <h1 className="text-3xl screen-md-sm:text-5xl font-title font-bold pt-36 items-center flex flex-col justify-center">
+        <h1 className="text-3xl screen-md-sm:text-5xl font-title font-bold pt-36 items-center flex flex-col justify-center text-center">
           <span>Feel Free to Say Hello!</span>
         </h1>
         <ul className="mt-10 flex flex-col gap-5 text-md screen-md-sm:text-xl">
