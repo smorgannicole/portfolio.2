@@ -127,7 +127,7 @@ const App = () => {
     },
   ]
   return (
-    <div className="safe inset-top inset-right inset-bottom inset-left">
+    <div className="notch-styling">
       <Routes>
         <Route path="/" element={<Work />} />
         <Route path="/archive" element={<Table projects={projects} />} />

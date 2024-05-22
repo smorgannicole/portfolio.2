@@ -14,7 +14,7 @@ const Contact = () => {
           <span>Feel Free to Say Hello!</span>
         </h1>
         <ul className="mt-10 flex flex-col gap-5 text-xl">
-          <li className="flex justify-center">
+          <li className="flex flex-wrap justify-center">
             Email me&nbsp;
             <a
               href="mailto:smorgannicole@gmail.com"
@@ -38,7 +38,7 @@ const Contact = () => {
               </span>
             </a>
           </li>
-          <li className="flex justify-center text-xl">
+          <li className="flex flex-wrap justify-center text-xl">
             Connect with me on&nbsp;
             <a
               className="underline transition-all duration-300 hover:opacity-70 text-xl"
@@ -63,7 +63,7 @@ const Contact = () => {
               </span>
             </a>
           </li>
-          <li className="flex justify-center text-xl">
+          <li className="flex flex-wrap justify-center text-xl">
             Check out my work on&nbsp;
             <a
               className="transition-all duration-300 hover:opacity-70 text-xl"
