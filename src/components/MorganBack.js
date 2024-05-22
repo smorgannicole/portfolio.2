@@ -13,7 +13,7 @@ const MorganBack = ({ color }) => {
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="w-5 h-5 mt-1"
+        className="w-3 h-3 screen-md-sm:w-5 screen-md-sm:h-5 mt-1"
       >
         <path
           strokeLinecap="round"
@@ -21,7 +21,10 @@ const MorganBack = ({ color }) => {
           d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
         />
       </svg>
-      <Link to="/" className="text-xl hover:underline underline-offset-2">
+      <Link
+        to="/"
+        className="text-md screen-md-sm:text-xl hover:underline underline-offset-2"
+      >
         Morgan Smith
       </Link>
     </div>

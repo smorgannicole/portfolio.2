@@ -38,73 +38,79 @@ const Table = ({ projects }) => {
   }
 
   return (
-    <div className="font-text text-lg flex flex-col justify-center items-center text-gray-950 py-24 px-5 min-h-screen bg-opacity-50 bg-blue-100">
-      <div className="flex flex-col items-start w-232">
-        <MorganBack color={"#4D79FF"} />
-        <h1 className="font-title text-5xl py-5">All Projects</h1>
-      </div>
-      <div className="flex justify-center">
-        <table className="table-auto w-232">
-          <thead className="text-left">
-            <tr className="-m-10">
-              <th className="p-7">Date</th>
-              <th className="p-3">Project</th>
-              <th className="hidden screen-md:block">Built With</th>
-              <th>Link</th>
-            </tr>
-            <tr>
-              <td colSpan="4" className="py-2">
-                <hr className="text-gray-955" />
-              </td>
-            </tr>
-          </thead>
-          <tbody>
-            {projects.map((project, index) => (
-              <React.Fragment key={index}>
-                <tr>
-                  <td className="p-7">{project.date}</td>
-                  <td className="p-3 font-bold text-xl">{project.project}</td>
-                  <td className="hidden screen-md:block py-2">
-                    {project.builtWith.map((technology, techIndex) => (
-                      <span
-                        key={techIndex}
-                        className="inline-block bg-purple-955 bg-opacity-70 text-white px-3 py-1 rounded-full mr-2 mb-2"
-                      >
-                        {technology}
-                      </span>
-                    ))}
-                  </td>
-                  <td className="py-2">
-                    {project.link.map((url, linkIndex) => (
-                      <div key={linkIndex}>
-                        {getLinkText(url) === notALink ? (
-                          <span className="text-gray-950 flex items-center opacity-70">
-                            {getLinkText(url)}
-                          </span>
-                        ) : (
-                          <a
-                            href={url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-gray-950 flex items-center opacity-70 transition-all duration-300 hover:opacity-100"
-                          >
-                            {getLinkText(url)}
-                            {getLinkIcon(url)}
-                          </a>
-                        )}
-                      </div>
-                    ))}
-                  </td>
-                </tr>
-                <tr>
-                  <td colSpan="4" className="py-2">
-                    <hr className="text-gray-955" />
-                  </td>
-                </tr>
-              </React.Fragment>
-            ))}
-          </tbody>
-        </table>
+    <div className="min-h-screen bg-blue-100 bg-opacity-50">
+      <div className="font-text text-sm screen-md-sm:text-lg mx-auto text-gray-950 py-8 screen-md-sm:py-24 px-10 min-h-screen max-w-screen-xl">
+        <div className="flex flex-col items-start">
+          <MorganBack color={"#4D79FF"} />
+          <h1 className="font-title text-3xl screen-md-sm:text-5xl py-5">
+            All Projects
+          </h1>
+        </div>
+        <div className="flex justify-center">
+          <table className="table-auto w-full">
+            <thead className="text-left">
+              <tr className="-m-10">
+                <th className="p-7">Date</th>
+                <th className="p-3">Project</th>
+                <th className="hidden screen-md:block pt-7">Built With</th>
+                <th>Link</th>
+              </tr>
+              <tr>
+                <td colSpan="4" className="py-2">
+                  <hr className="text-gray-955" />
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              {projects.map((project, index) => (
+                <React.Fragment key={index}>
+                  <tr>
+                    <td className="p-7">{project.date}</td>
+                    <td className="p-3 font-bold text-md screen-md-sm:text-xl">
+                      {project.project}
+                    </td>
+                    <td className="hidden screen-md:block py-2">
+                      {project.builtWith.map((technology, techIndex) => (
+                        <span
+                          key={techIndex}
+                          className="inline-block bg-purple-955 bg-opacity-70 text-white px-3 py-1 rounded-full mr-2 mb-2"
+                        >
+                          {technology}
+                        </span>
+                      ))}
+                    </td>
+                    <td className="py-2">
+                      {project.link.map((url, linkIndex) => (
+                        <div key={linkIndex}>
+                          {getLinkText(url) === notALink ? (
+                            <span className="text-gray-950 flex items-center opacity-70">
+                              {getLinkText(url)}
+                            </span>
+                          ) : (
+                            <a
+                              href={url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-gray-950 flex items-center opacity-70 transition-all duration-300 hover:opacity-100"
+                            >
+                              {getLinkText(url)}
+                              {getLinkIcon(url)}
+                            </a>
+                          )}
+                        </div>
+                      ))}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colSpan="4" className="py-2">
+                      <hr className="text-gray-955" />
+                    </td>
+                  </tr>
+                </React.Fragment>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   )
