@@ -29,7 +29,7 @@ const NavBar = ({ projTitle }) => {
     <nav className="fixed top-3 screen-md:top-6 left-1/2 transform -translate-x-1/2 font-text text-gray-950 w-full flex justify-center z-50">
       <span>
         <ul
-          className={`flex justify-center gap-3 screen-md:gap-14 text-lg screen-md-sm-660:text-xl transition-all duration-500 flex-col screen-md:flex-row ${
+          className={`flex justify-center gap-3 screen-md:gap-14 text-md screen-md-sm-660:text-xl transition-all duration-500 flex-col screen-md:flex-row ${
             isScrolled
               ? "bg-white py-5 px-4 rounded-full flex-col screen-md:flex-row"
               : null

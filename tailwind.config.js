@@ -54,8 +54,10 @@ module.exports = {
       width: {
         118: "118px",
         111: "500px",
+        119: "550px",
         120: "600px",
         121: "610px",
+        212: "670px",
         222: "700px",
         232: "900px",
         223: "1000px",
@@ -67,6 +69,7 @@ module.exports = {
       },
       maxWidth: {
         "screen-md-lg": "900px",
+        "custom-lg": "1150px",
       },
       screens: {
         "screen-md": "1024px",

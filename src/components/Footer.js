@@ -60,7 +60,7 @@ const Footer = ({ footnote }) => {
           </div>
         </div>
       </div>
-      <div className="text-sm">
+      <div className="text-sm text-gray-950">
         {footnote}
         <div className="flex flex-wrap justify-end">
           <p>
