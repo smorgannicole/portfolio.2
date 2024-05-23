@@ -13,7 +13,7 @@ const Work = () => {
   }
 
   return (
-    <div className="bg-blue-100 min-h-screen bg-opacity-50 px-3 screen-md-sm-660:px-24 py-10 overflow-hidden">
+    <div className="bg-blue-100 min-h-screen bg-opacity-50 px-5 screen-md-sm-660:px-24 py-10 overflow-hidden">
       <NavBar />
       <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center overflow-x-clip pointer-events-none">
         <AmbientBG />

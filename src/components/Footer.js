@@ -3,14 +3,17 @@ import React from "react"
 const Footer = ({ footnote }) => {
   return (
     <>
-      <div className="text-gray-950 text-font text-md">
-        <div className="flex flex-col md:flex-row py-10 screen-md-sm:py-20 mt-5 justify-center gap-5 md:gap-20">
+      <div
+        className="text-gray-950 text-font text-sm screen-md-sm:text-md flex flex-col"
+        style={{ alignItems: "center" }}
+      >
+        <div className="flex flex-col md:flex-row py-10 screen-md-sm:py-20 mt-0 screen-md-sm:mt-5 justify-center gap-5 md:gap-20">
           <p className="flex justify-center md:justify-start items-center">
             © 2024 Morgan Smith
           </p>
-          <div className="flex flex-col items-center md:items-start">
-            <p className="font-bold mb-3">Elsewhere</p>
-            <ul className="space-y-3">
+          <div className="flex flex-col items-center screen-md-sm:items-start">
+            <p className="font-bold mb-1 screen-md-sm:mb-3">Elsewhere</p>
+            <ul className="space-y-0 screen-md-sm:space-y-3">
               <li>
                 <a
                   href="https://github.com/smorgannicole"
@@ -43,8 +46,8 @@ const Footer = ({ footnote }) => {
               </li>
             </ul>
           </div>
-          <div className="flex flex-col items-center md:items-start">
-            <p className="font-bold mb-3">Contact</p>
+          <div className="flex flex-col items-center screen-md-sm:items-start">
+            <p className="font-bold mb-1 screen-md-sm:mb-3">Contact</p>
             <ul>
               <li>
                 <a

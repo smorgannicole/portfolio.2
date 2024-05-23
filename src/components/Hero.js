@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="flex flex-col text-gray-950 text-end justify-center">
       <h1
         id="skip-nav"
-        className="text-4xl text-center screen-md-sm:text-end screen-md-sm-660:text-7xl font-title font-bold"
+        className="text-5xl text-center screen-md-sm:text-end screen-md-sm-660:text-7xl font-title font-bold"
       >
         I'm Morgan,
         <br />a frontend developer.
