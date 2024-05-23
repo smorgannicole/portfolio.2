@@ -11,55 +11,62 @@ const Footer = ({ footnote }) => {
           <p className="flex justify-center md:justify-start items-center">
             © 2024 Morgan Smith
           </p>
-          <div className="flex flex-col items-center screen-md-sm:items-start">
-            <p className="font-bold mb-1 screen-md-sm:mb-3">Elsewhere</p>
-            <ul className="space-y-0 screen-md-sm:space-y-3">
-              <li>
-                <a
-                  href="https://github.com/smorgannicole"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="opacity-70 transition-all duration-300 hover:opacity-100"
-                >
-                  Github
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://dribbble.com/smorgannicole"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="opacity-70 transition-all duration-300 hover:opacity-100"
-                >
-                  Dribbble
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/morgansmith13"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="opacity-70 transition-all duration-300 hover:opacity-100"
-                >
-                  LinkedIn
-                </a>
-              </li>
-            </ul>
+          <div className="flex flex-col" style={{ alignItems: "center" }}>
+            <div className="flex flex-col items-start w-fit">
+              <p className="font-bold mb-1 screen-md-sm:mb-3">Elsewhere</p>
+              <ul className="space-y-0 screen-md-sm:space-y-3">
+                <li>
+                  <a
+                    href="https://github.com/smorgannicole"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="opacity-70 transition-all duration-300 hover:opacity-100"
+                  >
+                    Github
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://dribbble.com/smorgannicole"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="opacity-70 transition-all duration-300 hover:opacity-100"
+                  >
+                    Dribbble
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/morgansmith13"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="opacity-70 transition-all duration-300 hover:opacity-100"
+                  >
+                    LinkedIn
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div className="flex flex-col items-center screen-md-sm:items-start">
-            <p className="font-bold mb-1 screen-md-sm:mb-3">Contact</p>
-            <ul>
-              <li>
-                <a
-                  href="mailto:smorgannicole@gmail.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="opacity-70 transition-all duration-300 hover:opacity-100"
-                >
-                  Gmail
-                </a>
-              </li>
-            </ul>
+          <div
+            className="flex flex-col pr-4 screen-md-sm:pr-0"
+            style={{ alignItems: "center" }}
+          >
+            <div className="flex flex-col items-start w-fit">
+              <p className="font-bold mb-1 screen-md-sm:mb-3">Contact</p>
+              <ul>
+                <li>
+                  <a
+                    href="mailto:smorgannicole@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="opacity-70 transition-all duration-300 hover:opacity-100"
+                  >
+                    Gmail
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
