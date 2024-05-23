@@ -46,7 +46,7 @@ const NavBar = ({ projTitle }) => {
                 onFocus={() => setSkipHovered(true)}
                 onBlur={() => setSkipHovered(false)}
               >
-                Skip Navigation
+                Skip to main content
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

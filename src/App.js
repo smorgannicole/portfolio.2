@@ -13,10 +13,19 @@ import Contact from "./pages/Contact"
 const App = () => {
   const projects = [
     {
-      date: "04/2024",
+      date: "05/2024",
       project: "Personal Website V2",
       builtWith: ["React", "Tailwind CSS"],
       link: ["You're on it", "https://github.com/smorgannicole/portfolio.2"],
+    },
+    {
+      date: "05/2024",
+      project: "Bank Buddy",
+      builtWith: ["React", "Rails", "Reactstrap"],
+      link: [
+        "https://capstone-frontend-yx8y.onrender.com/",
+        "https://github.com/orgs/Morgan-and-sons/repositories",
+      ],
     },
     {
       date: "04/2024",

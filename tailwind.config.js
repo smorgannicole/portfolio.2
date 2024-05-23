@@ -71,10 +71,13 @@ module.exports = {
         "screen-md-lg": "900px",
         "custom-lg": "1150px",
       },
+      maxHeight: {
+        111: "500px",
+      },
       screens: {
         "screen-md": "1024px",
         "screen-md-sm-660": "660px",
-        "screen-md-sm": "460px",
+        "screen-md-sm": "468px",
       },
       borderRadius: {
         "4xl": "4rem",
