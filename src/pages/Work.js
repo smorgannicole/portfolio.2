@@ -18,7 +18,7 @@ const Work = () => {
       <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center overflow-x-clip pointer-events-none">
         <AmbientBG />
       </div>
-      <div className="flex justify-end 2xl:justify-center pt-44 pb-56">
+      <div className="flex justify-end 2xl:justify-center pt-28 screen-md-sm:pt-44 pb-24 screen-md-sm:pb-56">
         <Hero />
       </div>
       <main className="relative">
