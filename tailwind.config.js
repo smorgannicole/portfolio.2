@@ -46,6 +46,7 @@ module.exports = {
         22: "75px",
       },
       height: {
+        37: "150px",
         101: "400px",
         111: "500px",
         222: "700px",
@@ -69,7 +70,7 @@ module.exports = {
       },
       maxWidth: {
         "screen-md-lg": "900px",
-        "custom-lg": "1150px",
+        "custom-lg": "1200px",
       },
       maxHeight: {
         111: "500px",

@@ -18,13 +18,13 @@ const About = () => {
   ]
   return (
     <div
-      className="font-text text-gray-950 min-h-screen bg-opacity-50 bg-blue-100 px-5 screen-md:px-20 py-10 flex flex-col"
+      className="font-text text-gray-950 min-h-screen bg-opacity-50 bg-blue-100 px-5 py-5 screen-md-sm:py-10 flex flex-col"
       style={{ alignItems: "center" }}
     >
       <div className="w-full max-w-custom-lg">
         <NavBar />
         <div className="flex flex-col" style={{ alignItems: "center" }}>
-          <h1 className="font-title text-2xl screen-md-sm-660:text-4xl pt-36 items-center flex flex-col justify-center relative w-fit bold">
+          <h1 className="font-title text-2xl screen-md-sm-660:text-4xl pt-28 screen-md-sm:pt-36 items-center flex flex-col justify-center relative w-fit font-bold">
             I'm Morgan :) I'm a frontend developer located in Austin, Texas
             <div className="flex justify-center absolute -bottom-6 left-0 right-0">
               {palette.map((color, index) => (
@@ -79,7 +79,7 @@ const About = () => {
             style={{ alignItems: "center" }}
           >
             <article className="mb-5 mr-5 screen-md:mb-0">
-              <h2 className="font-title text-2xl screen-md-sm-660:text-4xl">
+              <h2 className="font-title text-2xl screen-md-sm-660:text-4xl font-bold">
                 The LEARN Academy curriculum requires students present a tech
                 talk over a technical topic of their choosing
               </h2>

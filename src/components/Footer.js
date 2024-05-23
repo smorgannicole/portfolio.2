@@ -7,7 +7,7 @@ const Footer = ({ footnote }) => {
         className="text-gray-950 text-font text-sm screen-md-sm:text-md flex flex-col"
         style={{ alignItems: "center" }}
       >
-        <div className="flex flex-col md:flex-row py-10 screen-md-sm:py-20 mt-0 screen-md-sm:mt-5 justify-center gap-5 md:gap-20">
+        <div className="flex flex-col md:flex-row py-10 screen-md-sm:py-20 mt-1 screen-md-sm:mt-5 justify-center gap-5 md:gap-20">
           <p className="flex justify-center md:justify-start items-center">
             © 2024 Morgan Smith
           </p>

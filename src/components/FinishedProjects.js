@@ -27,7 +27,7 @@ const FinishedProjects = ({
           />
           <Link
             to="/show1"
-            className="h-40 screen-md-sm:h-101 relative overflow-hidden bg-pink-750 bg-opacity-55 rounded-4xl py-7 px-8 hover:bg-opacity-60 hover:cursor-pointer hover:drop-shadow-xl hover:-translate-y-1 transition-all duration-500 group"
+            className="h-37 screen-md-sm:h-101 relative overflow-hidden bg-pink-750 bg-opacity-55 rounded-4xl py-7 px-8 hover:bg-opacity-60 hover:cursor-pointer hover:drop-shadow-xl hover:-translate-y-1 transition-all duration-500 group"
             tabIndex="0"
             onClick={handleViewProj}
           >
@@ -51,7 +51,7 @@ const FinishedProjects = ({
           </Link>
           <Link
             to="/show2"
-            className="h-40 screen-md-sm:h-101 relative overflow-hidden bg-purple-650 bg-opacity-55 rounded-4xl py-7 px-8 hover:bg-opacity-60 hover:cursor-pointer hover:drop-shadow-xl hover:-translate-y-1 transition-all duration-500 group"
+            className="h-37 screen-md-sm:h-101 relative overflow-hidden bg-purple-650 bg-opacity-55 rounded-4xl py-7 px-8 hover:bg-opacity-60 hover:cursor-pointer hover:drop-shadow-xl hover:-translate-y-1 transition-all duration-500 group"
             tabIndex="0"
             onClick={handleViewProj}
           >
@@ -79,7 +79,7 @@ const FinishedProjects = ({
         <div className="relative gap-7 screen-md-sm:gap-14 grid grid-cols-1 screen-md:grid-cols-2 w-full max-w-screen-2xl">
           <Link
             to="/show3"
-            className="h-40 screen-md-sm:h-101 relative overflow-hidden bg-blue-150 bg-opacity-40 rounded-4xl py-7 px-8 hover:bg-opacity-45 hover:cursor-pointer hover:drop-shadow-xl hover:-translate-y-1 transition-all duration-500 group"
+            className="h-37 screen-md-sm:h-101 relative overflow-hidden bg-blue-150 bg-opacity-40 rounded-4xl py-7 px-8 hover:bg-opacity-45 hover:cursor-pointer hover:drop-shadow-xl hover:-translate-y-1 transition-all duration-500 group"
             tabIndex="0"
             onClick={handleViewProj}
           >
@@ -103,7 +103,7 @@ const FinishedProjects = ({
           </Link>
           <Link
             to="/show4"
-            className="h-40 screen-md-sm:h-101 relative overflow-hidden bg-blue-250 bg-opacity-40 rounded-4xl py-7 px-8 hover:bg-opacity-45 hover:cursor-pointer hover:drop-shadow-xl hover:-translate-y-1 transition-all duration-500 group"
+            className="h-37 screen-md-sm:h-101 relative overflow-hidden bg-blue-250 bg-opacity-40 rounded-4xl py-7 px-8 hover:bg-opacity-45 hover:cursor-pointer hover:drop-shadow-xl hover:-translate-y-1 transition-all duration-500 group"
             tabIndex="0"
             onClick={handleViewProj}
           >
