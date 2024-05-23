@@ -42,7 +42,7 @@ const Table = ({ projects }) => {
       <div className="font-text text-sm screen-md-sm:text-lg mx-auto text-gray-950 py-8 screen-md-sm:py-24 px-5 min-h-screen max-w-screen-xl">
         <div className="flex flex-col items-start">
           <MorganBack color={"#4D79FF"} />
-          <h1 className="font-title text-3xl screen-md-sm:text-5xl py-5">
+          <h1 className="font-title text-2xl screen-md-sm:text-5xl py-2 screen-md-sm:py-5">
             All Projects
           </h1>
         </div>
@@ -66,7 +66,7 @@ const Table = ({ projects }) => {
                 <React.Fragment key={index}>
                   <tr>
                     <td className="p-7">{project.date}</td>
-                    <td className="p-3 font-bold text-md screen-md-sm:text-xl">
+                    <td className="p-3 font-bold text-sm screen-md-sm:text-xl">
                       {project.project}
                     </td>
                     <td className="hidden screen-md:block py-2">

@@ -20,7 +20,7 @@ const FinishedProjects = ({
   return (
     <>
       <div className="flex flex-col" style={{ alignItems: "center" }}>
-        <div className="relative py-14 gap-14 grid grid-cols-1 screen-md:grid-cols-2 w-full max-w-screen-2xl">
+        <div className="relative py-7 screen-md-sm:py-14 gap-7 screen-md-sm:gap-14 grid grid-cols-1 screen-md:grid-cols-2 w-full max-w-screen-2xl">
           <DisplayProjects
             displayFinished={displayFinished}
             setDisplayFinished={setDisplayFinished}
@@ -35,12 +35,12 @@ const FinishedProjects = ({
               <h3 className="font-title text-3xl screen-md-sm:text-5xl flex justify-start screen-md-sm:justify-end">
                 Vibe Villas
               </h3>
-              <p className="font-text flex justify-start screen-md-sm:justify-end text-md screen-md-sm:text-2xl">
+              <p className="font-text flex justify-start screen-md-sm:justify-end text-sm screen-md-sm:text-2xl">
                 React / Rails / Reactstrap
               </p>
             </div>
             <div className="mt-10">
-              <div className="absolute flex justify-end w-full hidden screen-md-sm:block">
+              <div className="absolute justify-end w-full hidden screen-md-sm:flex">
                 <img
                   className="rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
                   src={vibeVillas}
@@ -59,12 +59,12 @@ const FinishedProjects = ({
               <h3 className="font-title text-3xl screen-md-sm:text-5xl flex justify-start screen-md-sm:justify-end">
                 Tea House
               </h3>
-              <p className="font-text flex justify-start screen-md-sm:justify-end text-md screen-md-sm:text-2xl">
+              <p className="font-text flex justify-start screen-md-sm:justify-end text-sm screen-md-sm:text-2xl">
                 React / Boonaki Tea API
               </p>
             </div>
             <div className="mt-10">
-              <div className="absolute flex justify-end w-full hidden screen-md-sm:block">
+              <div className="absolute justify-end w-full hidden screen-md-sm:flex">
                 <img
                   className="rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
                   src={teaHouse}
@@ -76,7 +76,7 @@ const FinishedProjects = ({
         </div>
       </div>
       <div className="flex flex-col" style={{ alignItems: "center" }}>
-        <div className="relative gap-14 grid grid-cols-1 screen-md:grid-cols-2 w-full max-w-screen-2xl">
+        <div className="relative gap-7 screen-md-sm:gap-14 grid grid-cols-1 screen-md:grid-cols-2 w-full max-w-screen-2xl">
           <Link
             to="/show3"
             className="h-40 screen-md-sm:h-101 relative overflow-hidden bg-blue-150 bg-opacity-40 rounded-4xl py-7 px-8 hover:bg-opacity-45 hover:cursor-pointer hover:drop-shadow-xl hover:-translate-y-1 transition-all duration-500 group"
@@ -87,12 +87,12 @@ const FinishedProjects = ({
               <h3 className="font-title text-3xl screen-md-sm:text-5xl flex justify-start screen-md-sm:justify-end">
                 Cat Tinder
               </h3>
-              <p className="font-text flex justify-start screen-md-sm:justify-end text-md screen-md-sm:text-2xl">
+              <p className="font-text flex justify-start screen-md-sm:justify-end text-sm screen-md-sm:text-2xl">
                 React / Rails / Reactstrap
               </p>
             </div>
             <div className="mt-10">
-              <div className="absolute flex justify-end w-full hidden screen-md-sm:block">
+              <div className="absolute justify-end w-full hidden screen-md-sm:flex">
                 <img
                   className="rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
                   src={catTinder}
@@ -111,12 +111,12 @@ const FinishedProjects = ({
               <h3 className="font-title text-3xl screen-md-sm:text-5xl flex justify-start screen-md-sm:justify-end">
                 Weather Map
               </h3>
-              <p className="font-text flex justify-start screen-md-sm:justify-end text-md screen-md-sm:text-2xl">
+              <p className="font-text flex justify-start screen-md-sm:justify-end text-sm screen-md-sm:text-2xl">
                 JS / OpenWeather API / Mapbox API
               </p>
             </div>
             <div className="mt-10">
-              <div className="absolute flex justify-end w-full hidden screen-md-sm:block">
+              <div className="absolute justify-end w-full hidden screen-md-sm:flex">
                 <img
                   className="rounded-xl group-hover:translate-y-[16px] transition-all duration-500 pointer-events-none"
                   src={weatherMap}
@@ -125,9 +125,7 @@ const FinishedProjects = ({
               </div>
             </div>
           </Link>
-          <div className="-mt-5 screen-md-sm:mt-0">
-            <ViewArchive handleViewArchive={handleViewArchive} />
-          </div>
+          <ViewArchive handleViewArchive={handleViewArchive} />
         </div>
         <div className="w-full max-w-screen-2xl">
           <Footer footnote={displayFinished ? <Footnote /> : null} />

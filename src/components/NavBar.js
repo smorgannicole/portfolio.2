@@ -26,10 +26,10 @@ const NavBar = ({ projTitle }) => {
   }
 
   return !archive ? (
-    <nav className="fixed top-3 screen-md:top-6 left-1/2 transform -translate-x-1/2 font-text text-gray-950 w-full flex justify-center z-50">
+    <nav className="fixed top-0 screen-md-sm:top-3 screen-md:top-6 left-1/2 transform -translate-x-1/2 font-text text-gray-950 w-full flex justify-center z-50">
       <span>
         <ul
-          className={`flex justify-center gap-3 screen-md:gap-14 text-md screen-md-sm-660:text-xl transition-all duration-500 flex-col screen-md:flex-row ${
+          className={`flex justify-center gap-3 screen-md:gap-14 text-sm screen-md-sm-660:text-xl transition-all duration-500 flex-col screen-md:flex-row ${
             isScrolled
               ? "bg-white py-5 px-4 rounded-full flex-col screen-md:flex-row"
               : null
@@ -74,11 +74,11 @@ const NavBar = ({ projTitle }) => {
               className={({ isActive }) => {
                 return isActive
                   ? !isScrolled
-                    ? "bg-white px-4 py-3 rounded-full transition-all"
-                    : "bg-blue-100 px-4 py-3 rounded-full transition-all"
+                    ? "bg-white px-2 py-1 screen-md-sm:px-4 screen-md-sm:py-3 rounded-full transition-all"
+                    : "bg-blue-100 px-2 py-1 screen-md-sm:px-4 screen-md-sm:py-3 rounded-full transition-all"
                   : isScrolled
-                  ? "duration-300 hover:bg-opacity-50 hover:bg-blue-100 px-4 py-3 rounded-full"
-                  : "duration-300 hover:bg-opacity-50 hover:bg-white px-4 py-3 rounded-full"
+                  ? "duration-300 hover:bg-opacity-50 hover:bg-blue-100 px-2 py-1 screen-md-sm:px-4 screen-md-sm:py-3 rounded-full"
+                  : "duration-300 hover:bg-opacity-50 hover:bg-white px-2 py-1 screen-md-sm:px-4 screen-md-sm:py-3 rounded-full"
               }}
               onClick={scrollToTop}
             >
@@ -91,11 +91,11 @@ const NavBar = ({ projTitle }) => {
               className={({ isActive }) => {
                 return isActive
                   ? !isScrolled
-                    ? "bg-white px-4 py-3 rounded-full transition-all"
-                    : "bg-blue-100 px-4 py-3 rounded-full transition-all"
+                    ? "bg-white px-2 py-1 screen-md-sm:px-4 screen-md-sm:py-3 rounded-full transition-all"
+                    : "bg-blue-100 px-2 py-1 screen-md-sm:px-4 screen-md-sm:py-3 rounded-full transition-all"
                   : isScrolled
-                  ? "duration-300 hover:bg-opacity-50 hover:bg-blue-100 px-4 py-3 rounded-full"
-                  : "duration-300 hover:bg-opacity-50 hover:bg-white px-4 py-3 rounded-full"
+                  ? "duration-300 hover:bg-opacity-50 hover:bg-blue-100 px-2 py-1 screen-md-sm:px-4 screen-md-sm:py-3 rounded-full"
+                  : "duration-300 hover:bg-opacity-50 hover:bg-white px-2 py-1 screen-md-sm:px-4 screen-md-sm:py-3 rounded-full"
               }}
               onClick={scrollToTop}
             >
@@ -108,11 +108,11 @@ const NavBar = ({ projTitle }) => {
               className={({ isActive }) => {
                 return isActive
                   ? !isScrolled
-                    ? "bg-white px-4 py-3 rounded-full transition-all"
-                    : "bg-blue-100 px-4 py-3 rounded-full transition-all"
+                    ? "bg-white px-2 py-1 screen-md-sm:px-4 screen-md-sm:py-3 rounded-full transition-all"
+                    : "bg-blue-100 px-2 py-1 screen-md-sm:px-4 screen-md-sm:py-3 rounded-full transition-all"
                   : isScrolled
-                  ? "duration-300 hover:bg-opacity-50 hover:bg-blue-100 px-4 py-3 rounded-full"
-                  : "duration-300 hover:bg-opacity-50 hover:bg-white px-4 py-3 rounded-full"
+                  ? "duration-300 hover:bg-opacity-50 hover:bg-blue-100 px-2 py-1 screen-md-sm:px-4 screen-md-sm:py-3 rounded-full"
+                  : "duration-300 hover:bg-opacity-50 hover:bg-white px-2 py-1 screen-md-sm:px-4 screen-md-sm:py-3 rounded-full"
               }}
               onClick={scrollToTop}
             >
@@ -125,8 +125,8 @@ const NavBar = ({ projTitle }) => {
                 to="/project"
                 className={
                   isScrolled
-                    ? "bg-blue-100 px-4 py-3 rounded-full transition-all"
-                    : "bg-white px-4 py-3 rounded-full transition-all"
+                    ? "bg-blue-100 px-2 py-1 screen-md-sm:px-4 screen-md-sm:py-3 rounded-full transition-all"
+                    : "bg-white px-2 py-1 screen-md-sm:px-4 screen-md-sm:py-3 rounded-full transition-all"
                 }
                 onClick={scrollToTop}
               >
