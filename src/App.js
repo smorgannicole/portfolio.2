@@ -27,7 +27,7 @@ const App = () => {
         "https://github.com/orgs/Morgan-and-sons/repositories",
       ],
       description:
-        "A React and Rails API project with a PostgreSQL database. Users can create events with descriptions, dates, and locations. Invitations can be sent to friends and family. Financial goals for events can be set and tracked. User authentication and security are managed with Devise and JWT. Logged-in users can manage their events by adding, editing, or deleting them, ensuring full control and transparency.",
+        "A React and Rails API project with a PostgreSQL database. Users can create events with descriptions, dates, and locations. Invitations can be sent to friends and family while financial goals for events can be set and tracked. User authentication and security are managed with Devise and JWT. Logged-in users can manage their events by adding, editing, or deleting them, ensuring full control and transparency. Ryan Lemus and Luis Moreno contributed to this project.",
     },
     {
       date: "04/2024",
@@ -37,7 +37,7 @@ const App = () => {
         "https://github.com/learn-academy-2024-alpha/apartment-app-frontend-the-smiths",
       ],
       description:
-        "A React and Rails API project with a PostgreSQL database. User authentication and authorization are handled via Devise and JWT, enabling users to list units for rent and manage their listings. Visitors can view available units, access unit info, and engage in listing management functionalities upon logging in.",
+        "A React and Rails API project with a PostgreSQL database. User authentication and authorization are handled via Devise and JWT, enabling users to list units for rent and manage their listings. Visitors can view available units, access unit info, and engage in listing management functionalities upon logging in. Mark Smith contributed to this project.",
     },
     {
       date: "03/2024",
@@ -72,7 +72,7 @@ const App = () => {
         "https://github.com/learn-academy-2024-alpha/cat-tinder-frontend-ryan-amir-morgan",
       ],
       description:
-        "A full-stack, decoupled application with a PostgreSQL database. Users can view, heart, edit, add , and delete kitties. Kitties may be filtered by age and searched by name.",
+        "A full-stack, decoupled application with a PostgreSQL database. Users can view, heart, edit, add , and delete kitties. Kitties may be filtered by age and searched by name. Amir Jackson and Ryan Lemus contributed to this project.",
     },
     {
       date: "03/2024",
@@ -82,7 +82,7 @@ const App = () => {
         "https://github.com/learn-academy-2024-alpha/text-based-game-team-ms",
       ],
       description:
-        "A text-based game where users immerse themselves in interactive fiction. User interactions from the IRB console drive the narrative forward.",
+        "A text-based game where users immerse themselves in interactive fiction. User interactions from the IRB console drive the narrative forward. Mark Smith contributed to this project.",
     },
     {
       date: "02/2024",
@@ -92,7 +92,7 @@ const App = () => {
       description: `A React app that features four "robots" that dynamically respond to user input in real-time. "Good Robot" echoes the user's input
       exactly, "Bad Robot" mimics the input with a repetitive "BLABLA..."
       pattern, and the third and fourth robots respond the same no matter
-      the input.`,
+      the input. Luis Moreno contributed to this project.`,
     },
     {
       date: "02/2024",
@@ -133,7 +133,7 @@ const App = () => {
       project: "Cosmic Coffee",
       builtWith: ["Javascript", "Bootstrap"],
       link: ["https://github.com/pennington-smith/coffee-project"],
-      description: `An application where users can search coffees by name or filter by roast. Coffee cards may be clicked and "flipped" to reveal more info. The app enables users to create, edit, and delete their own custom coffees, stored locally for convenience.`,
+      description: `An application where users can search coffees by name or filter by roast. Coffee cards may be clicked and "flipped" to reveal more info. The app enables users to create, edit, and delete their own custom coffees, stored locally for convenience. Nathan Pennington contributed to this project.`,
     },
     {
       date: "11/2023",

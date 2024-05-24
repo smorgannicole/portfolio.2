@@ -39,21 +39,23 @@ const Table = ({ projects }) => {
 
   return (
     <div
-      className="bg-blue-100 bg-opacity-50 font-text text-sm screen-md-sm:text-lg text-gray-950 py-8 screen-md-sm:py-24 px-5 screen-md-sm-660:px-48 flex flex-col"
+      className="bg-blue-100 bg-opacity-50 font-text text-sm screen-md-sm:text-lg text-gray-950 py-8 screen-md-sm:py-32 px-5 screen-md-sm-660:px-48 flex flex-col"
       style={{ alignItems: "center" }}
     >
       <MorganBack color={"#4D79FF"} />
       <h1 className="font-title text-2xl screen-md-sm:text-5xl py-2 screen-md-sm:py-5">
         All Projects
       </h1>
-      <table className="table-auto">
+      <table className="table-auto block">
         <thead className="text-left">
           <tr>
             <th className="p-3">Date</th>
             <th className="p-3">Project</th>
             <th className="hidden screen-md:block p-3">Built With</th>
-            <th className="p-3 hidden screen-md:table-cell">Description</th>
-            <th className="p-3">Link</th>
+            <th className="p-3 hidden screen-md:table-cell">
+              Description (hover)
+            </th>
+            <th className="p-3 hidden screen-md:table-cell">Link</th>
           </tr>
         </thead>
         <tr className="border-b border-slate-full last:border-none"></tr>
@@ -78,14 +80,14 @@ const Table = ({ projects }) => {
                 <td className="p-3 hidden screen-md:table-cell">
                   {project.description ? (
                     <span className="relative group cursor-pointer underline">
-                      Hover for {project.project} description
-                      <span className="absolute left-0 top-5 w-72 p-2 mt-2 text-sm text-white bg-gray-950 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-400 z-10 pointer-events-none">
+                      {project.project} description
+                      <span className="absolute left-0 top-5 w-72 p-3 mt-2 text-sm text-white bg-gray-950 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-400 z-10 pointer-events-none">
                         {project.description}
                       </span>
                     </span>
                   ) : null}
                 </td>
-                <td className="p-3">
+                <td className="p-3 hidden screen-md:table-cell">
                   {project.link.map((url, linkIndex) => (
                     <div key={linkIndex}>
                       {getLinkText(url) === notALink ? (
