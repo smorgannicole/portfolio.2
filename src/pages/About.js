@@ -1,7 +1,7 @@
-import React from "react"
-import NavBar from "../components/NavBar"
-import me from "../assets/itsame.jpg"
-import Footer from "../components/Footer"
+import React from "react";
+import NavBar from "../components/NavBar";
+import me from "../assets/itsame.jpg";
+import Footer from "../components/Footer";
 
 const About = () => {
   const palette = [
@@ -15,7 +15,7 @@ const About = () => {
     "#791437",
     "#7D525C",
     "#121318",
-  ]
+  ];
   return (
     <div
       className="font-text text-gray-950 min-h-screen bg-opacity-50 bg-blue-100 px-5 py-5 screen-md-sm:py-10 flex flex-col"
@@ -25,7 +25,7 @@ const About = () => {
         <NavBar />
         <div className="flex flex-col" style={{ alignItems: "center" }}>
           <h1 className="font-title text-2xl screen-md-sm-660:text-4xl pt-28 screen-md-sm:pt-36 items-center flex flex-col justify-center relative w-fit font-bold">
-            I'm Morgan :) I'm a frontend developer located in Austin, Texas
+            I'm Morgan :) I'm a software developer located in Austin, Texas
             <div className="flex justify-center absolute -bottom-6 left-0 right-0">
               {palette.map((color, index) => (
                 <div
@@ -45,7 +45,7 @@ const About = () => {
         <div className="flex mt-16 flex-col screen-md:flex-row text-xl justify-center">
           <div className="flex justify-center">
             <img
-              className="h-44 screen-md-sm-660:h-101 object-cover rounded-xl"
+              className="h-44 screen-md-sm-660:h-350 object-cover rounded-xl"
               src={me}
               alt="Morgan in front of a blue sculpture"
             />
@@ -60,9 +60,9 @@ const About = () => {
                 Five years later I attended both Codeup and LEARN Academy's full
                 stack web development bootcamps. Despite Codeup's closure midway
                 through the course, my time at LEARN Academy reinforced my
-                skills in frontend languages and libraries like HTML, CSS,
-                JavaScript, and React. If I went back now, I'd like to think I
-                could make at least a B in CS Fundamentals.
+                understanding of fundamental coding concepts. If I went back
+                now, I'd like to think I could make at least a B in CS
+                Fundamentals.
               </p>
               <p>
                 Outside of work, I enjoy friendly games of chess (add me on
@@ -108,7 +108,7 @@ const About = () => {
         <Footer />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

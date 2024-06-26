@@ -51,6 +51,7 @@ module.exports = {
         111: "500px",
         222: "700px",
         333: "999px",
+        350: "350px",
       },
       width: {
         118: "118px",
@@ -123,4 +124,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+};

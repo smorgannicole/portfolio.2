@@ -1,7 +1,7 @@
-import React from "react"
-import DisplayProjects from "./DisplayProjects"
-import Footer from "./Footer"
-import Footnote from "./Footnote"
+import React from "react";
+import DisplayProjects from "./DisplayProjects";
+import Footer from "./Footer";
+import Footnote from "./Footnote";
 
 const InProgress = ({ displayFinished, setDisplayFinished }) => {
   return (
@@ -14,7 +14,7 @@ const InProgress = ({ displayFinished, setDisplayFinished }) => {
           />
           <div className="flex flex-col text-gray-950 mt-4">
             <h3 className="pt-10 font-title text-gray-950 text-3xl">
-              *This portfolio*
+              {/* *This portfolio* */}
             </h3>
           </div>
         </div>
@@ -23,7 +23,7 @@ const InProgress = ({ displayFinished, setDisplayFinished }) => {
         <Footer footnote={displayFinished ? <Footnote /> : null} />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default InProgress
+export default InProgress;
