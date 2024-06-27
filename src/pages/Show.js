@@ -178,7 +178,9 @@ const Show = ({ project }) => {
                 <img
                   className="max-h-111 rounded-lg mt-10 screen-md-sm:mt-20"
                   src={image}
-                  alt={`Project image ${index + 1} from ${projectName}`}
+                  alt={`Project webpage screenshot ${
+                    index + 1
+                  } from ${projectName}`}
                 />
               </div>
             ))}
